@@ -32,6 +32,7 @@ Este repositorio documenta las pruebas de **Mochi Guardians**, un juego web desa
 
 ---
 
+⚠️ Nota: Este repositorio actúa como portfolio de la estrategia y artefactos de QA. El código fuente de los tests es privado.
 ## 📁 Cómo Navegar el Repositorio
 
 ```text
@@ -43,3 +44,4 @@ docs/defects/              DEF-001 a DEF-004 (formato Jira estándar)
 docs/jira.md               Texto de los tickets de Jira (KAN-9 a KAN-12)
 docs/test-run.md           Hoja de registro de la ejecución manual (28 casos)
 docs/traceability.md       Matriz de trazabilidad: requisitos ↔ casos ↔ defects ↔ Jira
+
