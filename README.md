@@ -37,11 +37,11 @@ Este repositorio documenta las pruebas de **Mochi Guardians**, un juego web desa
 
 ```text
 README.md                  Esta página
-docs/test-plan.md          Plan de pruebas: objetivos, entornos, riesgos, criterios de salida
-docs/automation.md         Comprobaciones automatizadas: suites, métricas, desglose E2E
-docs/test-cases/           7 ficheros con 28 casos manuales estructurados
-docs/defects/              DEF-001 a DEF-004 (formato Jira estándar)
-docs/jira.md               Texto de los tickets de Jira (KAN-9 a KAN-12)
-docs/test-run.md           Hoja de registro de la ejecución manual (28 casos)
-docs/traceability.md       Matriz de trazabilidad: requisitos ↔ casos ↔ defects ↔ Jira
+test-plan.md          Plan de pruebas: objetivos, entornos, riesgos, criterios de salida
+automation.md         Comprobaciones automatizadas: suites, métricas, desglose E2E
+test-cases/           7 ficheros con 28 casos manuales estructurados
+defects/              DEF-001 a DEF-004 (formato Jira estándar)
+jira.md               Texto de los tickets de Jira (KAN-9 a KAN-12)
+test-run.md           Hoja de registro de la ejecución manual (28 casos)
+traceability.md       Matriz de trazabilidad: requisitos ↔ casos ↔ defects ↔ Jira
 
