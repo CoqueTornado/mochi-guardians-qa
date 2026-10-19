@@ -1,70 +1,111 @@
-# Mochi Guardians — QA portfolio
+# Mochi Guardians — Arquitectura de Testing y QA
 
-QA de un juego de navegador con Phaser 3 y TypeScript: defensa por carriles, fusión, campaña y modo roguelike. El código comercial del juego no se publica aquí.
+> **Proyecto interno:** `scrapline`\
+> **Título público:** Mochi Guardians\
+> **Responsable de QA:** Jorge
 
-Este repositorio permite **ejecutar pruebas contra la demo compilada sin acceso al código del juego**. Incluye estrategia, casos manuales, defectos y evidencias. Código y documentación preparados con asistencia de IA; las ejecuciones se identifican por salida y entorno.
+Portfolio de estrategia de pruebas, automatización y documentación de defectos de **Mochi Guardians**, un juego web de defensa por carriles y fusión de criaturas desarrollado con **Phaser 3 y TypeScript**.
 
-## Empezar por aquí
+Incluye pruebas de navegador ejecutables con **JavaScript, Node.js Test Runner y Playwright**, junto con planes, casos y evidencias. El código comercial del juego y las suites que dependen de sus fuentes permanecen en el repositorio privado.
 
-- [Selector de idiomas y cifras del CV, 19/10](docs/update-2026-10-19.md).
+## Resumen de resultados
 
-- [Informe actual](docs/release-2026-10-18.md): alcance, resultados y limitaciones.
-- [Pruebas ejecutables](automation/demo-smoke.test.mjs): Node.js Test Runner + Playwright.
-- [Plan y riesgos](docs/test-plan.md).
-- [28 casos manuales](docs/test-cases/): diseñados; ejecución manual sin registrar en [la hoja de ejecución](docs/test-run.md).
-- [4 defectos históricos](docs/defects/): verificados en código; no se afirma reproducción manual.
-- [DEF-005, corrección de esta entrega](docs/defects/DEF-005-cjk-demo-wrap.md): texto chino cortado en vertical, con evidencia posterior y regresión de geometría.
-- [Automatización histórica](docs/automation.md): las 5.929 comprobaciones mínimas pertenecen a una versión anterior. No son 5.929 casos manuales ni certifican la demo actual.
+| Área | Resultado documentado |
+|---|---|
+| Automatización de lógica, datos y balance | **53 suites y al menos 5.929 comprobaciones**, correspondientes al registro histórico del 13–14/10/2026 |
+| Pruebas de producción de la demo | **10 combinaciones aprobadas**: cinco idiomas × dos orientaciones, más una comprobación del paquete |
+| Pruebas de producción de la versión completa | **10 combinaciones aprobadas**, más una comprobación del paquete |
+| Integración del cierre de demo y guardados | **20 combinaciones aprobadas**: dos bandos × dos orientaciones × cinco idiomas |
+| Regresión del selector de idioma | **10 casos aprobados** con entrada de ratón o toque automatizada |
+| Diseño de pruebas manuales | **28 casos** estructurados en siete áreas; ejecución manual pendiente de registrar |
+| Defectos documentados | **5 fichas**: cuatro históricas verificadas en código y una corrección de interfaz verificada con captura y prueba de integración |
+| Cobertura de código | **No instrumentada**; no se publica un porcentaje |
+| GitHub Actions | Workflow preparado para ejecución manual; ejecución remota pendiente |
 
-## Ejecutar
+Los resultados identifican versiones y fechas concretas; no se suman como un único recuento de casos independientes. El registro histórico de 53 suites no certifica que toda la batería actual esté aprobada. La última ejecución general registrada del proyecto privado se detuvo en `test:guardian-visual`, después de 11 suites; el diagnóstico y la salida están en el [informe del 18/10](docs/release-2026-10-18.md).
 
-Requisitos: Node.js 22 o posterior y una URL directa del juego HTML5. La ficha de itch.io no sirve como BASE_URL: hace falta la URL del iframe del juego.
+## Alcance de las pruebas
+
+| Área | Enfoque y evidencia |
+|---|---|
+| Lógica de juego, integridad de datos y reglas de balance | Suites del proyecto original, con desglose y registro histórico en [automation.md](docs/automation.md) |
+| Arranque y paquete de producción | Canvas visible, bundle de producción y ausencia de referencias a sourcemaps |
+| Localización | Español, inglés, ruso, japonés y chino simplificado; detección, persistencia y regresiones de interfaz |
+| Orientación y guardado | Recarga, cambio entre horizontal y vertical y separación de guardados entre demo y versión completa |
+| Cierre de la demo | Límite del nivel 2, mensaje final y ajuste del texto en la matriz de integración |
+| Selector de idiomas | Selección directa, cancelación, conservación de preferencia y límites del popup |
+| Errores y recursos | Errores JavaScript, respuestas HTTP fallidas y peticiones externas inesperadas |
+| Gestión de defectos | Pasos de reproducción, resultado esperado y observado, causa, corrección y alcance de la verificación |
+
+Las pruebas de navegador registradas utilizan **Chromium mediante el canal Microsoft Edge**, con viewports de escritorio y móvil simulados. No equivalen a pruebas en teléfonos físicos ni acreditan Firefox, Safari o una revisión lingüística nativa. La localización añadida requiere revisión de hablantes nativos.
+
+## Recorrido recomendado
+
+1. [Plan de pruebas](docs/test-plan.md): objetivos, riesgos y alcance.
+2. [Entrega del 18/10](docs/release-2026-10-18.md): resultados, fallo general y limitaciones.
+3. [Actualización del 19/10](docs/update-2026-10-19.md): selector de idiomas, etiqueta rusa de zoom y regresiones.
+4. [Defecto de localización DEF-005](docs/defects/DEF-005-cjk-demo-wrap.md): diagnóstico y verificación del ajuste de texto chino.
+5. [Automatización pública](automation/demo-smoke.test.mjs): pruebas ejecutables contra el juego compilado.
+6. [Justificación de métricas](docs/cv-summary.md): alcance de las cifras históricas y distinción entre aserciones y cobertura.
+
+## Ejecutar las pruebas
+
+Requisitos: **Node.js 22 o posterior**, dependencias instaladas y una URL directa de la demo compilada. El juego se obtiene por separado: no está incluido en este repositorio.
 
 ```bash
 npm ci
 npx playwright install chromium
-BASE_URL=http://127.0.0.1:4173/ npm test
 ```
 
-En PowerShell:
-
-```powershell
-$env:BASE_URL='http://127.0.0.1:4173/'
-npm test
-```
-
-Para un ZIP local: extraerlo, definir DEMO_DIR y lanzar el servidor en otra terminal. Por defecto busca ../demo-release/web, junto al proyecto original.
+Para una demo local, extraer su ZIP y ejecutar desde este repositorio, en PowerShell:
 
 ```powershell
 $env:DEMO_DIR='C:\ruta\demo-extraida'
 npm run serve:demo
 ```
 
-Windows con Edge instalado: `$env:BROWSER_CHANNEL='msedge'`. Sin canal definido se usa Chromium de Playwright. QA_OUTPUT cambia la salida (por defecto artifacts/latest/).
+En una segunda terminal, también desde este repositorio:
 
-Para comprobar la versión completa local se puede definir `$env:EDITION='full'` y usar su URL como BASE_URL.
+```powershell
+$env:BASE_URL='http://127.0.0.1:4173/'
+npm test
+```
 
-La batería valida el paquete de producción y diez combinaciones (cinco idiomas × dos orientaciones): canvas visible, idioma del documento, recarga, giro, errores JavaScript, recursos fallidos, peticiones externas y ausencia del puente de pruebas. Guarda capturas y results.json. **Capturar una imagen no equivale a aprobar su diseño.**
+También puede usarse una URL remota directa del juego. La ficha de itch.io no sirve como `BASE_URL`: debe ser la URL del contenido HTML5 de su iframe.
 
-El [workflow](.github/workflows/qa.yml) permite ejecutar manualmente las pruebas en GitHub Actions. No se afirma ejecución remota hasta tener un enlace real al job.
+Opciones disponibles:
 
-## Evidencia y límites
+- `BROWSER_CHANNEL=msedge`: usar Edge instalado; por defecto se usa Chromium de Playwright.
+- `EDITION=full`: comprobar la versión completa con sus claves de guardado.
+- `QA_OUTPUT`: cambiar el directorio de resultados; por defecto, `artifacts/latest/`.
 
-| Tecnología | Evidencia |
-|---|---|
-| JavaScript / Node.js Test Runner | Scripts, aserciones y resultados TAP |
-| Playwright / Chromium | Navegador real, capturas, eventos de red y errores |
-| TypeScript / esbuild | Comprobaciones del proyecto original, documentadas aparte |
-| Git / GitHub Actions | Historial local y workflow preparado; ejecución remota pendiente |
-| Diseño de pruebas | Plan, 28 casos manuales pendientes y 4 fichas históricas |
-| Jira | Solo borradores en su formato; no acredita tickets creados ni uso real |
+La ejecución genera capturas, resultados JSON y salida del ejecutor de Node.js. Capturar una pantalla no equivale a aprobar automáticamente su diseño. El [workflow de GitHub Actions](.github/workflows/qa.yml) permite lanzar estas pruebas indicando la URL del juego.
 
-No acredita dispositivos físicos, Safari, WebKit, Firefox automatizado, sesiones de usuarios aleatorios, rendimiento móvil ni calidad lingüística nativa. La demo contiene dos niveles y cinco idiomas: español, inglés, ruso, japonés y chino simplificado. La completa tiene 107 criaturas y la Gran Grieta.
+## Estructura del repositorio
 
-## Qué subir
+```text
+README.md                  Presentación, resultados y ejecución
+package.json               Comandos y dependencias
+package-lock.json          Versiones de dependencias
+.github/workflows/qa.yml    Ejecución manual en GitHub Actions
+automation/                Smoke tests y servidor local
+docs/test-plan.md          Estrategia, alcance y riesgos
+docs/automation.md         Registro histórico de automatización
+docs/release-2026-10-18.md  Informe de entrega
+docs/update-2026-10-19.md   Regresión del selector de idiomas
+docs/test-cases/           Siete documentos con 28 casos manuales
+docs/test-run.md           Hoja de ejecución manual
+docs/defects/              Fichas DEF-001 a DEF-005
+docs/jira.md               Borradores de tickets en formato Jira
+docs/cv-summary.md         Justificación de cifras y alcance
+docs/history/              Documentación histórica
+evidence/                  Salidas, resultados, capturas y manifiestos
+```
 
-Esta carpeta con README.md, package.json, package-lock.json, .gitignore, .github/, automation/, docs/ y la evidencia seleccionada en evidence/. Excluir node_modules/, artifacts/, credenciales, el ZIP del juego, su código comercial y los modelos de traducción. No se concede una licencia abierta sobre el juego ni sus imágenes.
+## Criterios de documentación
 
-Texto para el CV: **«Arquitectura de testing en Mochi Guardians (TypeScript, Node.js y Playwright): diseño e implementación de más de 50 suites y miles de aserciones automáticas para validar lógica de juego, integridad de datos y reglas de balance; pruebas de regresión en cinco idiomas y dos orientaciones, documentación de defectos y evidencias reproducibles.»**
+Cada informe distingue pruebas ejecutadas, análisis de código y trabajo pendiente. Los borradores de Jira no acreditan tickets creados ni uso real de la herramienta. Los 28 casos manuales se presentan como diseñados; su hoja de ejecución permanece pendiente.
 
-[Justificación de cifras y cobertura](docs/cv-summary.md). No se ha medido un porcentaje de cobertura de código; no hay evidencia que respalde el 92 %.
+El código y la documentación se han preparado con asistencia de IA. Los resultados se respaldan mediante salidas, fechas, entornos y evidencias disponibles en el repositorio.
+
+Se excluyen dependencias instaladas, resultados temporales, credenciales y el código comercial del juego. La publicación de este portfolio no concede una licencia abierta sobre el juego ni sus imágenes.
