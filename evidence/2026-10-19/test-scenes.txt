@@ -1,0 +1,496 @@
+
+> scrapline@0.1.0 test:scenes
+> node tests/scenes.test.mjs
+
+ok  : BaseScene: reinicia this.hudCells al entrar
+ok  : BaseScene: reinicia this.worldHidden al entrar
+ok  : BaseScene: reinicia this.deckSlots al entrar
+ok  : BaseScene: reinicia this.stacks al entrar
+ok  : BaseScene: reinicia this.follows al entrar
+ok  : BaseScene: reinicia this.layers al entrar
+ok  : BaseScene: reinicia this.panelClose al entrar
+ok  : BaseScene: reinicia this.panelGroup a null al entrar
+ok  : BaseScene: reinicia this.portCam a null al entrar
+ok  : BaseScene: reinicia this.lastLoot a null al entrar
+ok  : BaseScene: reinicia this.holdTimer a null al entrar
+ok  : BaseScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : GameScene: reinicia this.pendingDrag a null al entrar
+ok  : GameScene: quita el listener 'visibilitychange' al cerrar la escena
+ok  : GameScene: quita el listener 'beforeunload' al cerrar la escena
+ok  : GameScene: limpia los listeners en el evento shutdown
+ok  : GameScene: usa referencias estables (no funciones anónimas) para poder quitarlos
+ok  : GameScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : IntroScene: reinicia this.group a null al entrar
+ok  : IntroScene: reinicia this.timer a null al entrar
+ok  : IntroScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : LabyrinthScene: reinicia this.map al entrar
+ok  : LabyrinthScene: reinicia this.nodeFx al entrar
+ok  : LabyrinthScene: reinicia this.relicRow al entrar
+ok  : LabyrinthScene: reinicia this.offer al entrar
+ok  : LabyrinthScene: reinicia this.sheetGroup a null al entrar
+ok  : LabyrinthScene: reinicia this.pending a null al entrar
+ok  : LabyrinthScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : MenuScene: reinicia this.stacks al entrar
+ok  : MenuScene: reinicia this.picked a null al entrar
+ok  : MenuScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : SheetScene: reinicia this.falls al entrar
+ok  : SheetScene: reinicia this.hearts al entrar
+ok  : SheetScene: reinicia this.sheetSprite a null al entrar
+ok  : SheetScene: reinicia this.pendingCarry a null al entrar
+ok  : StoryScene: reinicia this.dots al entrar
+ok  : StoryScene: reinicia this.writer a null al entrar
+ok  : StoryScene: reinicia this.advance a null al entrar
+ok  : StoryScene: resetea los efectos de cámara al entrar (evita quedarse en blanco)
+ok  : el combate vertical vive en una escena independiente
+ok  : la guarida vertical vive en una escena independiente
+ok  : el tablero vertical reparte 15 huecos en cinco carriles y tres filas
+ok  : los enemigos verticales aparecen arriba y avanzan hacia abajo
+ok  : el modo vertical usa sus arenas propias
+ok  : el enrutado registra las dos escenas verticales sin sustituir las horizontales
+ok  : Game puede ir a la Guarida
+ok  : la Guarida puede volver al jardín en ambas orientaciones
+ok  : GameScene tiene un reinicio de estado explícito
+ok  : bossSmash existe
+ok  : bossSmash tiene salida cuando no hay nada que comer
+ok  : devorar el jardín acaba en derrota
+ok  : el jefe anima el mordisco
+ok  : la devoración se reinicia en cada oleada
+ok  : checkStuck existe
+ok  : checkStuck se comprueba en el bucle
+ok  : checkStuck mira tablero vacío y oro insuficiente
+ok  : el atasco se mide con el coste real de cada carta, no con uno genérico
+ok  : el rescate solo salta una vez por oleada
+ok  : el rescate ofrece vídeo con alternativa gratis
+ok  : soltar sobre otro mochi los INTERCAMBIA en vez de rebotar
+ok  : al arrastrar brillan los compañeros de fusión
+ok  : el brillo se limpia al soltar
+ok  : el crítico se avisa en pantalla
+ok  : los mochis aguantan golpes según su ficha
+ok  : las rocas hay que romperlas
+ok  : se sabe cuándo se está colgando encima del agua
+ok  : sin foso construido no se puede tirar a nadie
+ok  : mientras cuelga, pone cara triste
+ok  : y el agua y el cocodrilo se encienden
+ok  : soltarlo lo quita del tablero
+ok  : y el cocodrilo se lo lleva, con su sonido
+ok  : no se cobra duelo por esto: no ha caído nadie
+ok  : el gesto se explica al soltar
+ok  : el cursor cambia a pinza mientras se arrastra
+ok  : y vuelve a la normalidad al soltar
+ok  : el puntero va EN LÍNEA: este juego no carga ni un archivo de fuera
+ok  : los charcos frenan
+ok  : la carta seleccionada se resalta en crema
+ok  : mantener pulsado abre la ficha
+ok  : el jefe tiene varios gestos
+ok  : el jefe muerde más rápido que su ficha
+ok  : el jefe se enfurece con poca vida
+ok  : el mordisco del jefe hace más de 1 de daño
+ok  : la carta elegida se pone beige
+ok  : doble clic abre la ficha
+ok  : cada hechizo tiene su icono
+ok  : la posada se ve por dentro
+ok  : en la posada se puede hablar con la gente
+ok  : el estado del gesto vive en la escena, no en la tarjeta
+ok  : hay un helper único de gestos
+ok  : ninguna tarjeta guarda el gesto en una variable local
+ok  : además hay un botón explícito para la ficha
+ok  : el mago también abre ficha
+ok  : la X de cerrar tiene su chapita y está separada
+ok  : el gesto se limpia al reentrar en la guarida
+ok  : el jardín calcula el coste por carta
+ok  : el botón enseña el coste de esa carta y su grado
+ok  : la barra de hechizos usa solo los 3 equipados
+ok  : el jefe ya no ocupa media pantalla
+ok  : el jefe mide unas dos casillas
+ok  : durante la pelea de jefe siguen llegando bichos
+ok  : los acompañantes tienen tope
+ok  : los acompañantes salen del mismo presupuesto de la oleada
+ok  : los acompañantes no cuentan para limpiar la oleada
+ok  : congelar mete al bicho en un bloque de hielo
+ok  : el congelado no avanza
+ok  : el jefe congelado tampoco muerde
+ok  : el hielo se rompe solo al acabarse
+ok  : dura más cuanto más veterano es el mochi
+ok  : los de fuego y los inmunes no se congelan
+ok  : a los jefes les cunde menos
+ok  : la congelación tiene un tope duro en segundos
+ok  : tras descongelarse hay un rato de inmunidad
+ok  : los hechizos de escarcha también pasan por el tope
+ok  : los hechizos de escarcha usan el mismo hielo
+ok  : el paso es una onda continua, no un parpadeo
+ok  : ya no se cambia la textura del CUERPO para andar
+ok  : se anima alrededor de una escala y una altura de reposo
+ok  : pone cara de dolor al recibir
+ok  : pone cara fiera al atacar
+ok  : pone cara de frío al congelarse
+ok  : se despide con una sonrisa al caer
+ok  : el hielo manda sobre las demás poses
+ok  : los invocadores abren su grieta por su cuenta
+ok  : la grieta va por rango
+ok  : los minions se mueven y pegan solos
+ok  : los minions se desvanecen al rato
+ok  : los que no vuelan no pueden con los que vuelan
+ok  : el botón ya no es "ir": es HUIR
+ok  : huir avisa antes
+ok  : huir cuesta todo el oro de encima
+ok  : huir deja algunos mochis por el camino
+ok  : se pierden los más flojos, no los mejores
+ok  : dice a quién ha perdido, y en una pantalla propia
+ok  : se ven los caídos con espirales en los ojos
+ok  : y los del otro bando celebrándolo detrás
+ok  : los dibujos son del BANDO que juegas, no siempre mochis
+ok  : y no se va sola: hay que darle al botón
+ok  : si no llevas nada, salir sigue siendo gratis
+ok  : los nueve lugares están repartidos, no en rejilla
+ok  : son catorce lugares (los nueve, el castillo, la Grieta, la mina, el vergel y el mercado)
+ok  : el mercado está en el bosque
+ok  : y cae entre el santuario y el bestiario, que es donde se pidió
+ok  : y lejos de la torre
+ok  : ya no hay carteles en blanco tapando los edificios
+ok  : la mina y el vergel están en el bosque, no en el aire
+ok  : la Grieta no se pisa con ningún otro lugar
+ok  : y sigue estando dentro del claro, no en el horizonte
+ok  : los barracones del ejército están en el bosque
+ok  : cada lugar tiene su capa de profundidad
+ok  : la torre está lejos y en lo alto
+ok  : la torre se apoya en una montaña
+ok  : hay bosque de verdad, en tres capas
+ok  : hay sotobosque
+ok  : el bosque está encantado (luciérnagas)
+ok  : un sendero une los lugares
+ok  : los lugares lejanos se ven más pálidos
+ok  : las etiquetas de los nueve lugares no se pisan
+ok  : ninguna etiqueta se mete debajo del mazo
+ok  : ninguna etiqueta se mete debajo de la cabecera
+ok  : la guarida declara su tabla de capas
+ok  : están todas las capas
+ok  : las capas van en orden estricto de atrás hacia delante
+ok  : el cielo es lo más al fondo de todo
+ok  : los lugares del fondo se dibujan DELANTE del cielo y de las colinas
+ok  : la loma de delante no tapa los lugares del fondo
+ok  : las etiquetas se leen por encima de los árboles
+ok  : el HUD va por encima del bosque entero
+ok  : los paneles tapan el HUD
+ok  : todo el escenario y el HUD declaran su capa
+ok  : la loma de delante se queda abajo
+ok  : la rueda de ajustes tiene su chapita
+ok  : la rueda de ajustes no roza el borde de arriba
+ok  : la tira del mazo enseña TODOS los huecos
+ok  : las tarjetas se estrechan si hay muchas
+ok  : ninguna escena escribe la silueta del mochi a pelo
+ok  : y existe la forma correcta de pedirla
+ok  : GameScene.ts: la regla de fusión está en un solo sitio (core/merge-rules)
+ok  : GameScene.ts: al fundir de verdad se usa el mismo escalón que enseña la vista previa
+ok  : GameScene.ts: el techo de una ficha sale de SU nivel
+ok  : GameScene.ts: ya no hay copia local de las reglas
+ok  : GameSceneVertical.ts: la regla de fusión está en un solo sitio (core/merge-rules)
+ok  : GameSceneVertical.ts: al fundir de verdad se usa el mismo escalón que enseña la vista previa
+ok  : GameSceneVertical.ts: el techo de una ficha sale de SU nivel
+ok  : GameSceneVertical.ts: ya no hay copia local de las reglas
+ok  : hace falta EL MISMO personaje
+ok  : y el mismo escalón
+ok  : los de 2 casillas solo fusionan entre ellos
+ok  : los destinados se funden entre sí, pero solo en el mismo escalón
+ok  : las sumas redondas exigen estar colindantes
+ok  : y la vecindad se mide con el ancho REAL del tablero
+ok  : dos iguales suben un escalón, y eso se comprueba PRIMERO
+ok  : y una suma redonda da su número
+ok  : la fusión respeta el techo
+ok  : y con el dado apagado: el azar no decide si una jugada es legal
+ok  : al fundir de verdad, el escalón se recorta al techo
+ok  : la sorpresa del cinco la decide el módulo de reglas
+ok  : la vida del jefe se ajusta a tu ejército
+ok  : las dos primeras noches miden lo desplegado y no un tablero lleno
+ok  : y solo al jefe, no a la oleada corriente
+ok  : la fuerza del ejército se mide con TU mazo
+ok  : contando el techo de cada ficha
+ok  : y las mejoras del castillo
+ok  : hay un solo sitio que devuelve la cocina a 1
+ok  : se reinicia al perder
+ok  : y también al huir
+ok  : la escena delega la fusión en el módulo de reglas
+ok  : y le pasa TAMBIÉN lo que hay plantado en el tablero
+ok  : la suma se anuncia en pantalla
+ok  : y se avisa ANTES de soltar, al resaltar la pareja
+ok  : el resaltado de compañeros usa la MISMA regla
+ok  : el castillo tiene vida
+ok  : cruzar la muralla le hace daño de verdad
+ok  : si el castillo cae, se pierde
+ok  : se repara solo un poco entre oleadas, no del todo
+ok  : hay barra de vida del castillo
+ok  : las almenas disparan solas
+ok  : un hechizo se puede consultar en plena partida
+ok  : vale el doble toque
+ok  : y vale dejarlo pulsado dos segundos
+ok  : el gesto se cancela al soltar o al salirse
+ok  : la ficha del hechizo existe de verdad
+ok  : NO pausa la partida: es una capa, no un panel
+ok  : cuenta lo que dura y lo que tarda en recargarse
+ok  : y el daño de AHORA, medido con tu tablero
+ok  : los que no pegan no anuncian daño
+ok  : se cierra al tocarla y se va sola
+ok  : el foso frena
+ok  : los cocodrilos muerden en el foso
+ok  : el bocado se lleva parte de la vida del bicho, no una cifra fija
+ok  : muerden AL PRIMERO que se les pone a tiro
+ok  : y luego se quedan entretenidos un buen rato
+ok  : los que vuelan pasan por encima y los jefes no caben
+ok  : hay un arquerito dibujado en la almena
+ok  : y es de TU bando, con la cara y las orejas que te tocan
+ok  : lleva el arco, que es el estilo de ataque 1
+ok  : y es el arquero de TU mazo si llevas uno
+ok  : al disparar cambia de fotograma
+ok  : la flecha se mide con el toque del jugador
+ok  : el avatar grande de la biblioteca tiene una zona completa para doble clic
+ok  : hay un sitio donde se apunta la página de cada lista
+ok  : y se olvida al entrar de nuevo en la guarida (no ocupa disco)
+ok  : bestiary: arranca en la página donde estabas
+ok  : bestiary: y la apunta al pasar de página
+ok  : bestiary: si la lista encoge, no se queda en una página que ya no existe
+ok  : library: arranca en la página donde estabas
+ok  : library: y la apunta al pasar de página
+ok  : library: si la lista encoge, no se queda en una página que ya no existe
+ok  : tower: arranca en la página donde estabas
+ok  : tower: y la apunta al pasar de página
+ok  : tower: si la lista encoge, no se queda en una página que ya no existe
+ok  : army: arranca en la página donde estabas
+ok  : army: y la apunta al pasar de página
+ok  : army: si la lista encoge, no se queda en una página que ya no existe
+ok  : la sábana tiene su escena
+ok  : y se entra desde la guarida
+ok  : sabe volver a la guarida
+ok  : al acabar se cobra en GOMINOLAS, no en oro
+ok  : se guarda el récord y cuándo se jugó
+ok  : y se persiste, que si no no ha pasado nada
+ok  : no se puede cobrar dos veces
+ok  : lo que cae al suelo se levanta y se va: no se rompe nadie
+ok  : el carbón quema una sábana y no hace nada más
+ok  : la partida termina por tiempo O por sábanas
+ok  : el reloj devuelve segundos
+ok  : y no da gominolas: lo que paga es el tiempo
+ok  : las obras tienen su panel en la guarida
+ok  : pero ya no se dibujan encima del bosque
+ok  : y siguen enteras en el campo de batalla
+ok  : las obras se pagan y se guardan
+ok  : las casillas vacías llevan una huella
+ok  : la huella se esconde al ocupar la casilla
+ok  : la muralla se ve como muralla
+ok  : no hace falta rotularla
+ok  : la vida del castillo no cruza la barra de hechizos
+ok  : va pegada al borde izquierdo
+ok  : la muralla destella al recibir
+ok  : la cara por defecto tiene cejas de enfado
+ok  : la cara por defecto tiene colmillo
+ok  : hay 24 adornos para que no se repitan
+ok  : el carril de entrada se elige entre los más despejados
+ok  : cuenta más quien acaba de entrar
+ok  : se separan del último de su carril al aparecer
+ok  : cada carta tiene su estilo de ataque
+ok  : la pose se reproduce al disparar
+ok  : la pose tiene dos fotogramas
+ok  : la ficha anima el ataque en bucle
+ok  : el bucle de la ficha se para al cerrar el panel
+ok  : la ficha recuerda de dónde se abrió
+ok  : ESC vuelve al panel de origen
+ok  : desde los barracones se vuelve a los barracones
+ok  : la ficha del mago vuelve a la posada
+ok  : hay escena de cinemáticas
+ok  : se puede saltar siempre (regla de Poki)
+ok  : también con X
+ok  : se marca como vista para no repetirla
+ok  : reinicia su estado al reentrar
+ok  : la guarida lanza la cinemática antes de jugar
+ok  : la escena está registrada en el juego
+ok  : el tornado gira mientras vuela en el mismo tween
+ok  : su tamaño sale del rango del mochi
+ok  : al llegar el tornado produce un impacto visible sin círculo genérico
+ok  : la luna vuelve a estar en el cielo, y a la izquierda
+ok  : pero ya no vuela: nadie la mueve
+ok  : y solo sale en la guarida del mochi
+ok  : la estrella de los deseos está en el cielo y no bajo el HUD
+ok  : y lejos del tendedero, que es lo que molestaba
+ok  : el deseo sigue ahí y sigue pagando
+ok  : en el mochi el deseo lo lleva la luna
+ok  : y la estrella solo lo lleva en el hollín
+ok  : nunca hay dos deseos en la misma pantalla
+ok  : la luna pintada también pide deseos
+ok  : la cabecera de la perrera acaba antes de que empiecen las casetas
+ok  : el vergel enseña la tropa que va a pelear, no la colección
+ok  : y al acariciar se enseña a quién le ha subido y cuánto
+ok  : el parte compara el ánimo de antes con el de ahora
+ok  : la guarida usa el cuadro si está
+ok  : y si no está, se dibuja el bosque de siempre
+ok  : con cuadro hay una zona por sitio, sin dibujar nada encima
+ok  : los edificios usan el cursor de mano y abren su panel sin hover superpuesto
+ok  : la zona es de dedo hasta en el móvil más pequeño
+ok  : y no se pisan entre sí las de dos sitios vecinos
+ok  : con cuadro la rueda es zona, no chapa
+ok  : y solo se dibuja la chapita cuando NO hay cuadro
+ok  : la rueda se mide en cada cuadro, no se hereda del otro
+ok  : la rueda no se sale por arriba en ningún bando
+ok  : el tendedero se puede tocar también con cuadro
+ok  : y el lago vuelve, pintado a mano encima del cuadro
+ok  : el iluminado del lago está recortado por abajo
+ok  : el charco acaba bastante antes del tablón del mazo
+ok  : la caña se queda quieta
+ok  : la duendecilla que queda guarda su deseo
+ok  : la duendecilla suelta una gominola además de las monedas
+ok  : y la luna no: es un astro, no reparte caramelos
+ok  : las estrellitas salen en círculo alrededor de quien concede
+ok  : y siguen pagando cien monedas cada una
+ok  : el lago sigue siendo solo del hollín: es lo que cambia elegir bando
+ok  : y las zonas sueltas no se pisan con ningún edificio
+ok  : el HUD muestra nivel y cartas, con etiquetas y en ese orden
+ok  : cada bando tiene su cartel medido, no el del otro
+ok  : las cifras van centradas en el cartel, no en 635
+ok  : en el mochi el monedero se para antes del pliegue
+ok  : y en el hollín no hay pliegue: tablero único, monedas dentro
+ok  : el monedero del hollín cae dentro del tablero
+ok  : y el del mochi, en la hoja de abajo del pergamino
+ok  : la fila se reparte al rellenarla, no al crearla
+ok  : la fila completa y el monedero se ajustan al ancho disponible
+ok  : cada casilla se rellena con el valor de su clave
+ok  : la línea de una sola tirada se apaga cuando hay cuadro
+ok  : y el título no se vuelve a escribir encima del cartel
+ok  : ni "tu mazo de hoy" encima del tablón
+ok  : y no se usan chapas semitransparentes: contorno oscuro y ya
+ok  : cada mundo del mapa trae su cuadro
+ok  : el velo cubre el mismo rectángulo que el fondo del mapa
+ok  : y el velo no usa la textura redondeada, que salía como un huevo
+ok  : y si el cuadro no está, el mapa se dibuja como toda la vida
+ok  : el cuadro se elige por SITIO, no por número de mundo
+ok  : las pestañas de fase están centradas y caben en ambas orientaciones
+ok  : el mapa usa el mundo ya vestido de tu bando
+ok  : y las pestañas también
+ok  : ya no se lee WORLDS a pelo para rotular
+ok  : la ficha de bando no se apaga a medias
+ok  : las dos fichas de bando están al 100 %
+ok  : la carta elegida se distingue por un tamaño mayor
+ok  : el marco y el relleno de la ficha son opacos
+ok  : el marco deja un borde alrededor del relleno en ambas orientaciones
+ok  : las curvas del menú se dibujan a tamaño real, sin ampliar una textura de 64 px
+ok  : el menú entra con un solo toque en el bando
+ok  : el menú no añade botones de continuar ni de borrar
+ok  : elegir un bando conserva los dos slots y no reinicia partidas
+ok  : hay una forma de repintar lo que se redibuja después
+ok  : buildArmy repinta lo que acaba de redibujar
+ok  : buildTower repinta lo que acaba de redibujar
+ok  : buildBestiary repinta lo que acaba de redibujar
+ok  : repintar es idempotente: ningún color de bando es clave de la tabla
+ok  : con cuadro no se pintan encima las barras negras del HUD
+ok  : las dos escenas jugables aplican el esquema táctil
+ok  : se aplica ANTES de crear nada
+ok  : todo texto respeta un mínimo legible
+ok  : todo lo tocable respeta el objetivo de 44 px
+ok  : el tablero arrastrable también se agranda (config, no geometría)
+ok  : el motor se parchea una sola vez, no una por escena
+ok  : cada escena se apunta y se borra de la lista de activas
+ok  : el parche solo actúa sobre escenas táctiles activas
+ok  : la zona sensible cuenta la escala real del objeto
+ok  : el mínimo de letra cuenta la escala del contenedor y redondea hacia arriba
+ok  : hay un repaso periódico para los paneles que se abren después
+ok  : los paneles se ajustan en el momento de abrirse
+ok  : los botones del HUD están lo bastante separados para dedos
+ok  : hay umbral de arrastre para que un toque no sea un arrastre
+ok  : en vertical se pide girar el aparato
+ok  : el aviso de giro permanece oculto al crear la escena y al redimensionar
+ok  : el mordisco se mide contra la vida de la roca, no en píxeles
+ok  : y no vuelve a depender solo de la velocidad
+ok  : el tiempo de romperla está escrito como una constante en segundos
+ok  : la roca se empuja hacia la línea sin correa que la sujete
+ok  : y ya no queda ni rastro del ancla de 20 px
+ok  : dormir manda sobre cualquier otra cara
+ok  : el verde del veneno no pisa al hielo ni al dominado
+ok  : el veneno se acumula hasta el punto entero antes de encender
+ok  : y el fogonazo dura medio segundo
+ok  : las magias tienen el tornado del viento
+ok  : las magias tienen los rayos
+ok  : las magias tienen las llamas
+ok  : las magias tienen la escarcha
+ok  : las magias tienen el veneno
+ok  : las magias tienen el sueño
+ok  : el tornado cruza el campo de verdad, de un lado al otro
+ok  : y a los bichos que pilla los tambalea
+ok  : el jardín vacía el encargo en ambas orientaciones
+ok  : la Grieta pasa su encargo y restaura el combate en ambas orientaciones
+ok  : nadie arranca la partida sin decir qué encargo lleva
+ok  : hay un botón de empezar de cero en las opciones
+ok  : y va en rojo, no en el verde de los botones inocentes
+ok  : pregunta DOS veces, no una
+ok  : la segunda pregunta también va en rojo
+ok  : salir sin borrar es lo fácil: el "no" va en verde y el primero
+ok  : solo borra al final del todo, nunca en el primer paso
+ok  : el cazador de toques del Portal no va en la lista que se enciende
+ok  : pero sigue estando en la bandeja, que si no no se puede tocar
+ok  : y sigue siendo invisible
+ok  : el marco de fuera dice la RAREZA
+ok  : y por dentro queda otro reborde con el valor de la tirada
+ok  : cada capa vuelve a SU escala, no a la del marco
+ok  : el borde de los lados es más grueso que antes de cinco píxeles
+ok  : las cinco cartas de una fila siguen cupiendo sin tocarse
+ok  : el retrato no roza el borde de la carta
+ok  : el mago abre la fila y las magias van a su derecha (40 → 128)
+ok  : y van pegados, no a doscientos píxeles
+ok  : el mago y sus magias caben sin tocar el primer botón (hasta 348 de 377)
+ok  : y los tres hechizos están separados lo que pide un dedo
+ok  : y van en la franja del HUD, por debajo del jardín
+ok  : cada mancha de terreno va rotulada con su icono y su nombre
+ok  : y la primera vez que sale una clase se explica
+ok  : quien pisa una mancha lo lleva escrito encima
+ok  : el alcance cuenta la columna
+ok  : y se mide contra la columna del medio, que es la referencia
+ok  : el que dispara pasa su columna al elegir objetivos
+ok  : y también al barrer carriles
+ok  : canHit suma ese alcance extra
+ok  : las tres columnas están a 86 px una de otra
+ok  : lo que gana la de delante es lo que pierde la de atrás
+ok  : un cuerpo a cuerpo de 230 pasa de 144 a 316: más del doble
+ok  : el aire NO se decide con la columna: un puñetazo sigue sin llegar arriba
+ok  : el tope de congelación baja a 1,2 s
+ok  : y la inmunidad sube a 5 s
+ok  : solo se congela al objetivo principal, no a media pantalla
+ok  : en vertical el ×2 está en Opciones y es el mismo interruptor
+ok  : horizontal: el botón de Cocina es un indicador del calor de la noche
+ok  : horizontal: el hollín baja solo el dibujo, también al balancearse
+ok  : vertical: el botón de Cocina es un indicador del calor de la noche
+ok  : vertical: el hollín baja solo el dibujo, también al balancearse
+ok  : horizontal: al acabar el jefe se para su música y suena la resolución
+ok  : horizontal: un toque no vuelve a arrancarla durante el recuento
+ok  : vertical: al acabar el jefe se para su música y suena la resolución
+ok  : vertical: un toque no vuelve a arrancarla durante el recuento
+ok  : horizontal: un panel abierto mientras llega el arte espera a que llegue
+ok  : horizontal: el resto del arte se trae con la guarida ya en pantalla
+ok  : vertical: un panel abierto mientras llega el arte espera a que llegue
+ok  : vertical: el resto del arte se trae con la guarida ya en pantalla
+ok  : vertical: las poses con dirección giran para apuntar arriba y suben
+ok  : vertical: el arquerito de la almena apunta arriba
+ok  : vertical: cada fila baja lo suyo por bando para caer en su losa pintada
+ok  : vertical: el alcance sigue midiéndose con ROW_Y y no con el dibujo
+ok  : vertical: la tarjeta de rescate es más ancha que su texto y sus botones
+ok  : vertical: empezar de cero se centra en el lienzo vertical
+ok  : vertical: el medallón de Opciones lleva un aspa que cierra el panel
+ok  : vertical: los botones de la madriguera caen en sus tres huecos pintados
+ok  : vertical: las filas de Opciones caben en el tabloide y se dibujan sin estirar texturas
+ok  : vertical: los interruptores de Opciones son pastillas dibujadas, no la textura estirada
+ok  : vertical: el mochi ve la fragua volcánica y el hollín el laboratorio (estaban cruzados)
+ok  : vertical: lo de encima se coloca según el cuadro, no según el bando
+ok  : vertical: el cero pintado del cartel volcánico queda tapado y el número centrado en el hueco
+ok  : horizontal: el número del espejo del hollín va centrado en el cristal
+ok  : horizontal: la ✕ del portal va sin brillo al pasar por encima, en los dos bandos
+ok  : horizontal: la joyería del mochi cabe en su cartel (15 px, un pelo más abajo)
+ok  : vertical: el número del espejo del laboratorio va centrado en el cristal (524, 1078)
+ok  : horizontal: la biblioteca pone nombre y retrato a todas, las tengas o no
+ok  : horizontal: de las que no tienes solo se ve rareza y elemento, sin historia ni números
+ok  : vertical: la biblioteca pone nombre y retrato a todas, las tengas o no
+ok  : vertical: de las que no tienes solo se ve rareza y elemento, sin historia ni números
+ok  : vertical: el retrato de la ficha se aparta del texto (166 y no 170)
+ok  : horizontal: monedas, troncos y gominolas del hollín van en marrón verdoso, no en marfil sobre beige
+ok  : horizontal: el rescate suena a mala suerte, no a cofre
+ok  : vertical: el rescate suena a mala suerte, no a cofre
+ok  : horizontal: farolillo y luna alimentan la secuencia y abren todo
+ok  : horizontal: la taberna suelta a veces un rumor de ficha
+ok  : horizontal: y la biblioteca enseña papel e historia de las oídas
+ok  : vertical: farolillo y luna alimentan la secuencia y abren todo
+ok  : vertical: la taberna suelta a veces un rumor de ficha
+ok  : vertical: y la biblioteca enseña papel e historia de las oídas
+ok  : horizontal: la batalla saca tantos botones como cartas lleve el mazo (3, 4 o 5)

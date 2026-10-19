@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-18",
+  "sourceBaseCommit": "3a7c2be0511b94a77801bc10e789036485052470",
+  "sourceWorkingTree": "modified, including pre-existing changes; not identified solely by HEAD",
+  "fullSuite": {
+    "command": "npm test",
+    "exitCode": 1,
+    "completedSuitesBeforeFailure": 11,
+    "stoppedAt": "test:guardian-visual",
+    "reason": "Static assertion expects band shorthand; current BattleScene uses band: Math.max(band, tier >= 2 ? 1 : 0).",
+    "log": "npm-test.txt"
+  },
+  "browsers": {
+    "demo": {
+      "passed": 11,
+      "failed": 0,
+      "scope": "Black-box smoke; screenshot capture is not automatic visual approval",
+      "browser": "155.0.4283.62"
+    },
+    "full": {
+      "passed": 11,
+      "failed": 0,
+      "scope": "Black-box smoke; screenshot capture is not automatic visual approval",
+      "browser": "155.0.4283.62"
+    },
+    "integration": {
+      "passed": 20,
+      "failed": 0,
+      "scope": "integration fixtures; not a human playthrough or device test",
+      "browser": "Windows; Playwright Chromium, msedge channel; emulated viewports"
+    }
+  },
+  "demoHtmlSha256": "0fb25a0d55084c24370d746fd0b40b1ec96a4895307f007c568ff2b5a89ef43a",
+  "fullHtmlSha256": "c04237889fbb5f4767839daec5ea603ed660af13bca6b14f91f11e7e4aed4cab",
+  "demoZip": {
+    "sha256": "3248478f5e5c636266e42478708c191aebf70d9aa858d2af3cc00e2c4b9b3f90",
+    "bytes": 25638539,
+    "files": 113,
+    "crcVerified": true,
+    "onlyReferencedJsBundle": true
+  }
+}

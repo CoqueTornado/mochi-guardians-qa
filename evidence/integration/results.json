@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-18T14:04:01.197Z",
+  "environment": "Windows; Playwright Chromium, msedge channel; emulated viewports",
+  "scope": "integration fixtures; not a human playthrough or device test",
+  "results": [
+    {
+      "name": "mochi-landscape-es",
+      "status": "passed",
+      "locale": {
+        "lang": "es",
+        "back": "VOLVER",
+        "thanks": "¡Gracias por jugar la Demo! Sigue jugando las 107 criaturas y el Modo Roguelike en la versión completa",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-en",
+      "status": "passed",
+      "locale": {
+        "lang": "en",
+        "back": "BACK",
+        "thanks": "Thanks for playing the Demo! Keep playing with all 107 creatures and Roguelike Mode in the full version",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-ru",
+      "status": "passed",
+      "locale": {
+        "lang": "ru",
+        "back": "НАЗАД",
+        "thanks": "Спасибо за игру в демоверсию! Все 107 существ и режим рогалик ждут вас в полной версии",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-ja",
+      "status": "passed",
+      "locale": {
+        "lang": "ja",
+        "back": "戻る",
+        "thanks": "デモを遊んでくれてありがとう！製品版では全107種類の仲間とローグライクモードを楽しめます",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-zh",
+      "status": "passed",
+      "locale": {
+        "lang": "zh",
+        "back": "返回",
+        "thanks": "感谢游玩试玩版！在完整版中继续体验全部107种生物和Roguelike模式",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-es",
+      "status": "passed",
+      "locale": {
+        "lang": "es",
+        "back": "VOLVER",
+        "thanks": "¡Gracias por jugar la Demo! Sigue jugando las 107 criaturas y el Modo Roguelike en la versión completa",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-en",
+      "status": "passed",
+      "locale": {
+        "lang": "en",
+        "back": "BACK",
+        "thanks": "Thanks for playing the Demo! Keep playing with all 107 creatures and Roguelike Mode in the full version",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-ru",
+      "status": "passed",
+      "locale": {
+        "lang": "ru",
+        "back": "НАЗАД",
+        "thanks": "Спасибо за игру в демоверсию! Все 107 существ и режим рогалик ждут вас в полной версии",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-ja",
+      "status": "passed",
+      "locale": {
+        "lang": "ja",
+        "back": "戻る",
+        "thanks": "デモを遊んでくれてありがとう！製品版では全107種類の仲間とローグライクモードを楽しめます",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-zh",
+      "status": "passed",
+      "locale": {
+        "lang": "zh",
+        "back": "返回",
+        "thanks": "感谢游玩试玩版！在完整版中继续体验全部107种生物和Roguelike模式",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-es",
+      "status": "passed",
+      "locale": {
+        "lang": "es",
+        "back": "VOLVER",
+        "thanks": "¡Gracias por jugar la Demo! Sigue jugando las 107 criaturas y el Modo Roguelike en la versión completa",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-en",
+      "status": "passed",
+      "locale": {
+        "lang": "en",
+        "back": "BACK",
+        "thanks": "Thanks for playing the Demo! Keep playing with all 107 creatures and Roguelike Mode in the full version",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-ru",
+      "status": "passed",
+      "locale": {
+        "lang": "ru",
+        "back": "НАЗАД",
+        "thanks": "Спасибо за игру в демоверсию! Все 107 существ и режим рогалик ждут вас в полной версии",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-ja",
+      "status": "passed",
+      "locale": {
+        "lang": "ja",
+        "back": "戻る",
+        "thanks": "デモを遊んでくれてありがとう！製品版では全107種類の仲間とローグライクモードを楽しめます",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-zh",
+      "status": "passed",
+      "locale": {
+        "lang": "zh",
+        "back": "返回",
+        "thanks": "感谢游玩试玩版！在完整版中继续体验全部107种生物和Roguelike模式",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-es",
+      "status": "passed",
+      "locale": {
+        "lang": "es",
+        "back": "VOLVER",
+        "thanks": "¡Gracias por jugar la Demo! Sigue jugando las 107 criaturas y el Modo Roguelike en la versión completa",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-en",
+      "status": "passed",
+      "locale": {
+        "lang": "en",
+        "back": "BACK",
+        "thanks": "Thanks for playing the Demo! Keep playing with all 107 creatures and Roguelike Mode in the full version",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-ru",
+      "status": "passed",
+      "locale": {
+        "lang": "ru",
+        "back": "НАЗАД",
+        "thanks": "Спасибо за игру в демоверсию! Все 107 существ и режим рогалик ждут вас в полной версии",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-ja",
+      "status": "passed",
+      "locale": {
+        "lang": "ja",
+        "back": "戻る",
+        "thanks": "デモを遊んでくれてありがとう！製品版では全107種類の仲間とローグライクモードを楽しめます",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-zh",
+      "status": "passed",
+      "locale": {
+        "lang": "zh",
+        "back": "返回",
+        "thanks": "感谢游玩试玩版！在完整版中继续体验全部107种生物和Roguelike模式",
+        "count": 107
+      },
+      "checks": [
+        "startup",
+        "locale",
+        "wave-20-fixture",
+        "save-isolation",
+        "reload-gate"
+      ],
+      "errors": []
+    }
+  ]
+}

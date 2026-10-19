@@ -1,0 +1,25 @@
+
+> mochi-guardians-qa@1.0.0 test
+> node --test --test-concurrency=1 automation/*.test.mjs
+
+✔ Demo HTML package: production module and no source maps (57.0286ms)
+▶ Browser startup, languages, local save, reload and orientation
+  ✔ landscape-es (7469.9796ms)
+  ✔ landscape-en (7015.8659ms)
+  ✔ landscape-ru (6845.0789ms)
+  ✔ landscape-ja (7099.8273ms)
+  ✔ landscape-zh (6818.1387ms)
+  ✔ portrait-es (6569.2319ms)
+  ✔ portrait-en (6812.1543ms)
+  ✔ portrait-ru (6787.7992ms)
+  ✔ portrait-ja (6630.9401ms)
+  ✔ portrait-zh (6401.4499ms)
+✔ Browser startup, languages, local save, reload and orientation (68983.7852ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69478.3367

@@ -1,0 +1,13 @@
+{
+  "name": "mochi-guardians-qa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible browser smoke tests and QA evidence for Mochi Guardians",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 automation/*.test.mjs",
+    "serve:demo": "node automation/serve-demo.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "playwright": "1.63.0" }
+}

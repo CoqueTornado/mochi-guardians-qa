@@ -1,0 +1,9 @@
+
+> scrapline@0.1.0 test:demo
+> esbuild tests/demo.test.mjs --bundle --format=esm --platform=node --define:import.meta.env.VITE_DEMO='"true"' --outfile=tests/.demo.bundle.mjs && node tests/.demo.bundle.mjs
+
+
+  tests\.demo.bundle.mjs  163.8kb
+
+Done in 12ms
+Demo rules passed: 2 levels, 107 creatures in the full game

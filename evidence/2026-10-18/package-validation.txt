@@ -1,0 +1,6 @@
+ZIP CRC and SHA-256: passed
+Root index.html: passed
+No TS or sourcemaps: passed
+Only referenced JS bundle: passed
+Files: 113
+ZIP bytes: 25638539
