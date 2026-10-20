@@ -1,0 +1,4474 @@
+[
+  {
+    "name": "mochi-landscape",
+    "panel": "map",
+    "state": {
+      "panel": "map",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "Nivel 3 · 竹林 · Cañaveral",
+          "x": 1000,
+          "y": 305,
+          "width": 211,
+          "height": 25,
+          "size": "18px"
+        },
+        {
+          "text": "Empiezan las inmunidades: quemar a un Ascua no sirve de nada.",
+          "x": 1000,
+          "y": 338,
+          "width": 381,
+          "height": 19,
+          "size": "13px"
+        },
+        {
+          "text": "Bambulín",
+          "x": -120,
+          "y": 24,
+          "width": 49,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Ascua",
+          "x": 0,
+          "y": 24,
+          "width": 32,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "🕊️",
+          "x": 140,
+          "y": -20,
+          "width": 17,
+          "height": 13,
+          "size": "12px"
+        },
+        {
+          "text": "Ventolina",
+          "x": 120,
+          "y": 24,
+          "width": 50,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Gotita",
+          "x": -120,
+          "y": 97.33333333333333,
+          "width": 34,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Semillita",
+          "x": 0,
+          "y": 97.33333333333333,
+          "width": 47,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Carboncillo",
+          "x": 120,
+          "y": 97.33333333333333,
+          "width": 59,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Chispa",
+          "x": -120,
+          "y": 170.66666666666666,
+          "width": 36,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "🍳 La Cocina  台所",
+          "x": 640,
+          "y": 110,
+          "width": 230,
+          "height": 34,
+          "size": "26px"
+        },
+        {
+          "text": "El valle, el horno encendido y el sendero de té. Aquí empieza todo y aquí se aprende a jugar.",
+          "x": 640,
+          "y": 150,
+          "width": 551,
+          "height": 20,
+          "size": "13px"
+        },
+        {
+          "text": "🍳 La Cocina",
+          "x": 460,
+          "y": 210,
+          "width": 78,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "🔒",
+          "x": 640,
+          "y": 210,
+          "width": 18,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "🔒",
+          "x": 820,
+          "y": 210,
+          "width": 18,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "1",
+          "x": 155,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛰️🌿🌪️",
+          "x": 155,
+          "y": 338,
+          "width": 42,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Sendero de Té",
+          "x": 155,
+          "y": 351,
+          "width": 65,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "2",
+          "x": 335,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌪️🌿⛰️🔥",
+          "x": 335,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Huerto de Fresas",
+          "x": 335,
+          "y": 351,
+          "width": 76,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "3",
+          "x": 515,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌿🔥🌪️🌊",
+          "x": 515,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Cañaveral",
+          "x": 515,
+          "y": 351,
+          "width": 45,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "4",
+          "x": 695,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌿⛰️🔥💗",
+          "x": 695,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Bosque Profundo",
+          "x": 695,
+          "y": 351,
+          "width": 75,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "5",
+          "x": 155,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 155,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 155,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "6",
+          "x": 335,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 335,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 335,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "7",
+          "x": 515,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 515,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 515,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "8",
+          "x": 695,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 695,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 695,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "9",
+          "x": 155,
+          "y": 568,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 155,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 155,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "10",
+          "x": 335,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 335,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 335,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "11",
+          "x": 515,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 515,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 515,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "12",
+          "x": 695,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 695,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 695,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-landscape",
+    "panel": "inn",
+    "state": {
+      "panel": "inn",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "🏮 LA POSADA DEL MOCHI TIBIO",
+          "x": 640,
+          "y": 108,
+          "width": 382,
+          "height": 34,
+          "size": "26px"
+        },
+        {
+          "text": "Habla con quien quieras",
+          "x": 640,
+          "y": 142,
+          "width": 155,
+          "height": 20,
+          "size": "14px"
+        },
+        {
+          "text": "🧭  EXPEDICIONES",
+          "x": 0,
+          "y": 0,
+          "width": 171,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 640,
+          "y": 480,
+          "width": 0,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "Habla con quien quieras",
+          "x": 640,
+          "y": 508,
+          "width": 151,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "💬",
+          "x": 330,
+          "y": 266,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 510,
+          "y": 228,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 690,
+          "y": 266,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 870,
+          "y": 228,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 982,
+          "y": 306,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "TU MAGO",
+          "x": 1126,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Poko",
+          "x": 1126,
+          "y": 248,
+          "width": 28,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Nv 1",
+          "x": 1126,
+          "y": 282,
+          "width": 24,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "📋 FICHA",
+          "x": 1126,
+          "y": 326,
+          "width": 57,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        },
+        {
+          "text": "Pompón 💬",
+          "x": 0,
+          "y": 65,
+          "width": 88,
+          "height": 21,
+          "size": "16px"
+        },
+        {
+          "text": "¡Bienvenida a la Posada!",
+          "x": 306,
+          "y": 392,
+          "width": 273,
+          "height": 26,
+          "size": "24px"
+        },
+        {
+          "text": "Soy Pompón. Aquí puedes conocer magos que quieran acompañarte en tus aventuras. Habla también con los demás: siempre hay cotilleos y pistas que escuchar.",
+          "x": 306,
+          "y": 428,
+          "width": 646,
+          "height": 76,
+          "size": "19px"
+        },
+        {
+          "text": "Toca para seguir ▸",
+          "x": 1014,
+          "y": 516,
+          "width": 118,
+          "height": 16,
+          "size": "14px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-landscape",
+    "panel": "mine",
+    "state": {
+      "panel": "mine",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "⛏️ LA MINA",
+          "x": 640,
+          "y": 104,
+          "width": 149,
+          "height": 31,
+          "size": "28px"
+        },
+        {
+          "text": "Nivel 8 · 5 galerías abiertas · 0/4 picando",
+          "x": 640,
+          "y": 138,
+          "width": 261,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "30000000",
+          "x": 346,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 442,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 538,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 634,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 730,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 826,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 922,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 250,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 250,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 510,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 510,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 770,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 770,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 1030,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 1030,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Manda a alguien a picar. Cada galería saca cosas distintas.",
+          "x": 640,
+          "y": 372,
+          "width": 366,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙",
+          "x": 190,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Filón de Oro",
+          "x": 190,
+          "y": 454,
+          "width": 77,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 988  🪵",
+          "x": 190,
+          "y": 484,
+          "width": 68,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🪵",
+          "x": 415,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Bosque Bajo",
+          "x": 415,
+          "y": 454,
+          "width": 77,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 342  🪵 💚",
+          "x": 415,
+          "y": 484,
+          "width": 90,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🏛️",
+          "x": 640,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Cantera",
+          "x": 640,
+          "y": 454,
+          "width": 50,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 456  🏛️ 🔷",
+          "x": 640,
+          "y": 484,
+          "width": 90,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "💎",
+          "x": 865,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Galería de Gemas",
+          "x": 865,
+          "y": 454,
+          "width": 111,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 570  💚 ❤️ 💙",
+          "x": 865,
+          "y": 484,
+          "width": 112,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🕳️",
+          "x": 1090,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Pozo Hondo",
+          "x": 1090,
+          "y": 454,
+          "width": 73,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 760  💙 🖤 🔷",
+          "x": 1090,
+          "y": 484,
+          "width": 112,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "⛲",
+          "x": 78,
+          "y": 574,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "El Riachuelo",
+          "x": 112,
+          "y": 574,
+          "width": 83,
+          "height": 17,
+          "size": "15px"
+        },
+        {
+          "text": "🪙 240  ·  🍬 60  ·  🪵 3",
+          "x": 200,
+          "y": 602,
+          "width": 148,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "¡Listo! Toca para recoger",
+          "x": 200,
+          "y": 642,
+          "width": 135,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "🪨",
+          "x": 958,
+          "y": 574,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "La Cantera",
+          "x": 992,
+          "y": 574,
+          "width": 73,
+          "height": 17,
+          "size": "15px"
+        },
+        {
+          "text": "🪙 660  ·  🍬 160  ·  🏛️ 4",
+          "x": 1080,
+          "y": 602,
+          "width": 154,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "¡Listo! Toca para recoger",
+          "x": 1080,
+          "y": 642,
+          "width": 135,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "No se puede cavar más hondo. Abajo ya solo hay Grieta.",
+          "x": 640,
+          "y": 596,
+          "width": 354,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-landscape",
+    "battleObjects": [
+      {
+        "type": "Text",
+        "name": "castle-health-value",
+        "text": "235",
+        "texture": "a4b41a05-b555-4c48-b7ab-a5ff02178328",
+        "x": 22,
+        "y": 660
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "VIDA",
+        "texture": "895ecd5a-d565-4f51-b9c1-ff7ec724b798",
+        "x": 22,
+        "y": 644
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "guardian0",
+        "x": 76,
+        "y": 676
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "orn3",
+        "x": 76,
+        "y": 658
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "🔮 24/24",
+        "texture": "f6a35666-b727-44b8-9be0-98711a9b2900",
+        "x": 78,
+        "y": 620
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "1",
+        "texture": "9a0e2793-8072-4a06-91ff-d34aacf73ba9",
+        "x": 108,
+        "y": 646
+      }
+    ]
+  },
+  {
+    "name": "mochi-landscape",
+    "errors": []
+  },
+  {
+    "name": "mochi-portrait",
+    "panel": "army",
+    "state": {
+      "panel": "army",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 58,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 58,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "🎌 TU EJÉRCITO",
+          "x": 360,
+          "y": 70,
+          "width": 208,
+          "height": 30,
+          "size": "27px"
+        },
+        {
+          "text": "Mazo 3/3  -  Doble clic (o mantén pulsado) para ver la ficha",
+          "x": 360,
+          "y": 110,
+          "width": 429,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "PORTAL",
+          "x": 0,
+          "y": 0,
+          "width": 65,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "página 1 / 3  -  25",
+          "x": 360,
+          "y": 1120,
+          "width": 145,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "Ordenar por:",
+          "x": 360,
+          "y": 150,
+          "width": 93,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "Afinidad",
+          "x": 0,
+          "y": 0,
+          "width": 63,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Fragmentos",
+          "x": 0,
+          "y": 0,
+          "width": 87,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Grado",
+          "x": 0,
+          "y": 0,
+          "width": 44,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Nombre",
+          "x": 0,
+          "y": 0,
+          "width": 59,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "◀",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "▶",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "TU EJÉRCITO · mayor rango primero",
+          "x": 360,
+          "y": 867,
+          "width": 307,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 284,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 360,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 436,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥",
+          "x": 360,
+          "y": 1042,
+          "width": 42,
+          "height": 32,
+          "size": "30px"
+        },
+        {
+          "text": "Ame",
+          "x": -20,
+          "y": -31.5,
+          "width": 44,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Lluvia",
+          "x": -20,
+          "y": 2.5,
+          "width": 53,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Doro",
+          "x": -20,
+          "y": -31.5,
+          "width": 46,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Barrizal",
+          "x": -20,
+          "y": 2.5,
+          "width": 69,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Hanabi",
+          "x": -20,
+          "y": -31.5,
+          "width": 69,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Pirotécnica",
+          "x": -20,
+          "y": 2.5,
+          "width": 101,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Honō",
+          "x": -20,
+          "y": -31.5,
+          "width": 51,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Pirómana",
+          "x": -20,
+          "y": 2.5,
+          "width": 83,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Ishi",
+          "x": -20,
+          "y": -31.5,
+          "width": 34,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Guardián",
+          "x": -20,
+          "y": 2.5,
+          "width": 82,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Iwao",
+          "x": -20,
+          "y": -31.5,
+          "width": 46,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Peñasco",
+          "x": -20,
+          "y": 2.5,
+          "width": 72,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Kajiya",
+          "x": -20,
+          "y": -31.5,
+          "width": 61,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Herrera",
+          "x": -20,
+          "y": 2.5,
+          "width": 69,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Kaminari",
+          "x": -20,
+          "y": -31.5,
+          "width": 88,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Rayo",
+          "x": -20,
+          "y": 2.5,
+          "width": 43,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Kasai",
+          "x": -20,
+          "y": -31.5,
+          "width": 51,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Antorcha",
+          "x": -20,
+          "y": 2.5,
+          "width": 81,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "X",
+          "x": 58,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        },
+        {
+          "text": "🎯 MI QUERER",
+          "x": 134,
+          "y": 70,
+          "width": 137,
+          "height": 23,
+          "size": "21px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-portrait",
+    "panel": "mine",
+    "state": {
+      "panel": "mine",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 58,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 58,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "⛏️ LA MINA",
+          "x": 360,
+          "y": 75,
+          "width": 137,
+          "height": 32,
+          "size": "25px"
+        },
+        {
+          "text": "Nivel 8 · 5 galerías · 0/4 picando",
+          "x": 360,
+          "y": 114,
+          "width": 236,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "30000000",
+          "x": 66,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 162,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 258,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 354,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 450,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 546,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 642,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛲",
+          "x": 56,
+          "y": 200,
+          "width": 29,
+          "height": 19,
+          "size": "21px"
+        },
+        {
+          "text": "El Riachuelo",
+          "x": 86,
+          "y": 200,
+          "width": 105,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 240 · 🍬 60 · 🪵 3",
+          "x": 190,
+          "y": 230,
+          "width": 182,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "¡Listo! Toca",
+          "x": 190,
+          "y": 257,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪨",
+          "x": 396,
+          "y": 200,
+          "width": 29,
+          "height": 19,
+          "size": "21px"
+        },
+        {
+          "text": "La Cantera",
+          "x": 426,
+          "y": 200,
+          "width": 93,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 660 · 🍬 160 · 🏛️ 4",
+          "x": 530,
+          "y": 230,
+          "width": 192,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "¡Listo! Toca",
+          "x": 530,
+          "y": 257,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "TRABAJOS ACTIVOS",
+          "x": 360,
+          "y": 294,
+          "width": 164,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 190,
+          "y": 356,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 190,
+          "y": 390,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 530,
+          "y": 356,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 530,
+          "y": 390,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 190,
+          "y": 488,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 190,
+          "y": 522,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 530,
+          "y": 488,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 530,
+          "y": 522,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "ELIGE UNA GALERÍA",
+          "x": 360,
+          "y": 580,
+          "width": 167,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙",
+          "x": 88,
+          "y": 640,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Filón de Oro",
+          "x": 128,
+          "y": 622,
+          "width": 105,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 988  🪵",
+          "x": 128,
+          "y": 658,
+          "width": 95,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪵",
+          "x": 88,
+          "y": 742,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Bosque Bajo",
+          "x": 128,
+          "y": 724,
+          "width": 104,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 342  🪵 💚",
+          "x": 128,
+          "y": 760,
+          "width": 125,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🏛️",
+          "x": 88,
+          "y": 844,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Cantera",
+          "x": 128,
+          "y": 826,
+          "width": 67,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 456  🏛️ 🔷",
+          "x": 128,
+          "y": 862,
+          "width": 125,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "💎",
+          "x": 88,
+          "y": 946,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Galería de Gemas",
+          "x": 128,
+          "y": 928,
+          "width": 151,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 570  💚 ❤️ 💙",
+          "x": 128,
+          "y": 964,
+          "width": 155,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🕳️",
+          "x": 88,
+          "y": 1048,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Pozo Hondo",
+          "x": 128,
+          "y": 1030,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 760  💙 🖤 🔷",
+          "x": 128,
+          "y": 1066,
+          "width": 155,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "X",
+          "x": 58,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-portrait",
+    "panel": "rift",
+    "state": {
+      "panel": "rift",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 662,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 662,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "LA GRAN GRIETA",
+          "x": 360,
+          "y": 78,
+          "width": 215,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "大亀裂",
+          "x": 360,
+          "y": 116,
+          "width": 48,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "Cada bajada cambia. Una sola vida hasta el fondo.",
+          "x": 360,
+          "y": 158,
+          "width": 319,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🏆 0",
+          "x": 201,
+          "y": 296,
+          "width": 64,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "expediciones superadas",
+          "x": 201,
+          "y": 346,
+          "width": 169,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💠 0 / 30",
+          "x": 519,
+          "y": 296,
+          "width": 124,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "reliquias descubiertas",
+          "x": 519,
+          "y": 346,
+          "width": 157,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "🩸",
+          "x": 104,
+          "y": 494,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Una barra de vida para toda la expedición.",
+          "x": 144,
+          "y": 494,
+          "width": 308,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "🗺️",
+          "x": 104,
+          "y": 580,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Elige el camino. Cada descenso cambia.",
+          "x": 144,
+          "y": 580,
+          "width": 287,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💎",
+          "x": 104,
+          "y": 666,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Busca reliquias y decide cuándo regresar.",
+          "x": 144,
+          "y": 666,
+          "width": 296,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💀",
+          "x": 104,
+          "y": 752,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Los élites y jefes guardan mejores premios.",
+          "x": 144,
+          "y": 752,
+          "width": 314,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "⬇  COMENZAR EL DESCENSO",
+          "x": 0,
+          "y": 0,
+          "width": 277,
+          "height": 23,
+          "size": "21px"
+        },
+        {
+          "text": "X",
+          "x": 662,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "mochi-portrait",
+    "battleObjects": [
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 1066
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 952
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 838
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 1066
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 952
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 838
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "icoShield",
+        "x": 102,
+        "y": 768
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "croc",
+        "x": 102.27688951149432,
+        "y": 720
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "🏰",
+        "texture": "a16edd13-62cf-4a82-85b6-792ee631c489",
+        "x": 92,
+        "y": 1146
+      }
+    ]
+  },
+  {
+    "name": "mochi-portrait",
+    "errors": []
+  },
+  {
+    "name": "hollin-landscape",
+    "panel": "map",
+    "state": {
+      "panel": "map",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "Nivel 3 · 竹林 · Cañaveral",
+          "x": 1000,
+          "y": 305,
+          "width": 211,
+          "height": 25,
+          "size": "18px"
+        },
+        {
+          "text": "Empiezan las inmunidades: quemar a un Ascua no sirve de nada.",
+          "x": 1000,
+          "y": 338,
+          "width": 381,
+          "height": 19,
+          "size": "13px"
+        },
+        {
+          "text": "Dangolín",
+          "x": -120,
+          "y": 24,
+          "width": 46,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Mochi Tostado",
+          "x": 0,
+          "y": 24,
+          "width": 73,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "🕊️",
+          "x": 140,
+          "y": -20,
+          "width": 17,
+          "height": 13,
+          "size": "12px"
+        },
+        {
+          "text": "Soplo de Harina",
+          "x": 120,
+          "y": 24,
+          "width": 49,
+          "height": 32,
+          "size": "11px"
+        },
+        {
+          "text": "Gota de Almíbar",
+          "x": -120,
+          "y": 97.33333333333333,
+          "width": 46,
+          "height": 32,
+          "size": "11px"
+        },
+        {
+          "text": "Granito",
+          "x": 0,
+          "y": 97.33333333333333,
+          "width": 40,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Barrita Tostada",
+          "x": 120,
+          "y": 97.33333333333333,
+          "width": 78,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "Azúcar Saltarín",
+          "x": -120,
+          "y": 170.66666666666666,
+          "width": 78,
+          "height": 16,
+          "size": "11px"
+        },
+        {
+          "text": "🕯️ La Madriguera  巣穴",
+          "x": 640,
+          "y": 110,
+          "width": 282,
+          "height": 34,
+          "size": "26px"
+        },
+        {
+          "text": "Tu casa. Galerías, braseros que se apagan y un frío que no se quita. Aquí se aprende a pelear.",
+          "x": 640,
+          "y": 150,
+          "width": 552,
+          "height": 20,
+          "size": "13px"
+        },
+        {
+          "text": "🕯️ La Madriguera",
+          "x": 460,
+          "y": 210,
+          "width": 104,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "🔒",
+          "x": 640,
+          "y": 210,
+          "width": 18,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "🔒",
+          "x": 820,
+          "y": 210,
+          "width": 18,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "1",
+          "x": 155,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛰️🌿🌪️",
+          "x": 155,
+          "y": 338,
+          "width": 42,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Sendero de Té",
+          "x": 155,
+          "y": 351,
+          "width": 65,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "2",
+          "x": 335,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌪️🌿⛰️🔥",
+          "x": 335,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Huerto de Fresas",
+          "x": 335,
+          "y": 351,
+          "width": 76,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "3",
+          "x": 515,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌿🔥🌪️🌊",
+          "x": 515,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Cañaveral",
+          "x": 515,
+          "y": 351,
+          "width": 45,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "4",
+          "x": 695,
+          "y": 318,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🌿⛰️🔥💗",
+          "x": 695,
+          "y": 338,
+          "width": 55,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "Bosque Profundo",
+          "x": 695,
+          "y": 351,
+          "width": 75,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "5",
+          "x": 155,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 155,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 155,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "6",
+          "x": 335,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 335,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 335,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "7",
+          "x": 515,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 515,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 515,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "8",
+          "x": 695,
+          "y": 443,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 695,
+          "y": 463,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 695,
+          "y": 476,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "9",
+          "x": 155,
+          "y": 568,
+          "width": 10,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 155,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 155,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "10",
+          "x": 335,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 335,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 335,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "11",
+          "x": 515,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 515,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 515,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "12",
+          "x": 695,
+          "y": 568,
+          "width": 20,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 695,
+          "y": 588,
+          "width": 0,
+          "height": 11,
+          "size": "10px"
+        },
+        {
+          "text": "???",
+          "x": 695,
+          "y": 601,
+          "width": 12,
+          "height": 12,
+          "size": "10px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-landscape",
+    "panel": "inn",
+    "state": {
+      "panel": "inn",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "🕯️ LA TABERNA DE LA BRASA ÚLTIMA",
+          "x": 640,
+          "y": 108,
+          "width": 436,
+          "height": 34,
+          "size": "26px"
+        },
+        {
+          "text": "Habla con quien quieras",
+          "x": 640,
+          "y": 142,
+          "width": 155,
+          "height": 20,
+          "size": "14px"
+        },
+        {
+          "text": "🧭  EXPEDICIONES",
+          "x": 0,
+          "y": 0,
+          "width": 171,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "",
+          "x": 640,
+          "y": 480,
+          "width": 0,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "Habla con quien quieras",
+          "x": 640,
+          "y": 508,
+          "width": 151,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "💬",
+          "x": 330,
+          "y": 266,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 510,
+          "y": 228,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 690,
+          "y": 266,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 870,
+          "y": 228,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "💬",
+          "x": 982,
+          "y": 306,
+          "width": 25,
+          "height": 16,
+          "size": "18px"
+        },
+        {
+          "text": "TU MAGO",
+          "x": 1126,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Tizne",
+          "x": 1126,
+          "y": 248,
+          "width": 32,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Nv 1",
+          "x": 1126,
+          "y": 282,
+          "width": 24,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "📋 FICHA",
+          "x": 1126,
+          "y": 326,
+          "width": 57,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        },
+        {
+          "text": "Tizón 💬",
+          "x": 0,
+          "y": 65,
+          "width": 69,
+          "height": 21,
+          "size": "16px"
+        },
+        {
+          "text": "¡Bienvenido a la Taberna!",
+          "x": 306,
+          "y": 392,
+          "width": 287,
+          "height": 26,
+          "size": "24px"
+        },
+        {
+          "text": "Soy Tizón. Aquí puedes conocer brujos que quieran acompañarte en tus aventuras. Habla también con los demás: siempre hay cotilleos y pistas que escuchar.",
+          "x": 306,
+          "y": 428,
+          "width": 646,
+          "height": 76,
+          "size": "19px"
+        },
+        {
+          "text": "Toca para seguir ▸",
+          "x": 1014,
+          "y": 516,
+          "width": 118,
+          "height": 16,
+          "size": "14px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-landscape",
+    "panel": "mine",
+    "state": {
+      "panel": "mine",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 1136,
+          "y": 92
+        },
+        {
+          "visible": true,
+          "x": 1136,
+          "y": 92
+        }
+      ],
+      "texts": [
+        {
+          "text": "⛏️ LA MINA",
+          "x": 640,
+          "y": 104,
+          "width": 149,
+          "height": 31,
+          "size": "28px"
+        },
+        {
+          "text": "Nivel 8 · 5 galerías abiertas · 0/4 picando",
+          "x": 640,
+          "y": 138,
+          "width": 261,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "30000000",
+          "x": 346,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 442,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 538,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 634,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 730,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 826,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 922,
+          "y": 176,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 250,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 250,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 510,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 510,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 770,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 770,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 1030,
+          "y": 234,
+          "width": 73,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️",
+          "x": 1030,
+          "y": 272,
+          "width": 42,
+          "height": 29,
+          "size": "30px"
+        },
+        {
+          "text": "Manda a alguien a picar. Cada galería saca cosas distintas.",
+          "x": 640,
+          "y": 372,
+          "width": 366,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙",
+          "x": 190,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Filón de Oro",
+          "x": 190,
+          "y": 454,
+          "width": 77,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 988  🪵",
+          "x": 190,
+          "y": 484,
+          "width": 68,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🪵",
+          "x": 415,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Bosque Bajo",
+          "x": 415,
+          "y": 454,
+          "width": 77,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 342  🪵 💚",
+          "x": 415,
+          "y": 484,
+          "width": 90,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🏛️",
+          "x": 640,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Cantera",
+          "x": 640,
+          "y": 454,
+          "width": 50,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 456  🏛️ 🔷",
+          "x": 640,
+          "y": 484,
+          "width": 90,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "💎",
+          "x": 865,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Galería de Gemas",
+          "x": 865,
+          "y": 454,
+          "width": 111,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 570  💚 ❤️ 💙",
+          "x": 865,
+          "y": 484,
+          "width": 112,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🕳️",
+          "x": 1090,
+          "y": 420,
+          "width": 31,
+          "height": 20,
+          "size": "22px"
+        },
+        {
+          "text": "Pozo Hondo",
+          "x": 1090,
+          "y": 454,
+          "width": 73,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🪙 760  💙 🖤 🔷",
+          "x": 1090,
+          "y": 484,
+          "width": 112,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛏️  A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 105,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "⛲",
+          "x": 78,
+          "y": 574,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "La Gotera",
+          "x": 112,
+          "y": 574,
+          "width": 67,
+          "height": 17,
+          "size": "15px"
+        },
+        {
+          "text": "🪙 240  ·  🍬 60  ·  🪵 3",
+          "x": 200,
+          "y": 602,
+          "width": 148,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "¡Listo! Toca para recoger",
+          "x": 200,
+          "y": 642,
+          "width": 135,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "🪨",
+          "x": 958,
+          "y": 574,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "El Desprendimiento",
+          "x": 992,
+          "y": 574,
+          "width": 131,
+          "height": 17,
+          "size": "15px"
+        },
+        {
+          "text": "🪙 660  ·  🍬 160  ·  🏛️ 4",
+          "x": 1080,
+          "y": 602,
+          "width": 154,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "¡Listo! Toca para recoger",
+          "x": 1080,
+          "y": 642,
+          "width": 135,
+          "height": 14,
+          "size": "12px"
+        },
+        {
+          "text": "No se puede cavar más hondo. Abajo ya solo hay Grieta.",
+          "x": 640,
+          "y": 596,
+          "width": 354,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "✕",
+          "x": 1136,
+          "y": 92,
+          "width": 20,
+          "height": 26,
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-landscape",
+    "battleObjects": [
+      {
+        "type": "Text",
+        "name": "castle-health-value",
+        "text": "235",
+        "texture": "f395c2b2-531f-4882-9299-edaffd96c74c",
+        "x": 22,
+        "y": 660
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "VIDA",
+        "texture": "ad2e3e94-0684-4b1a-9bec-1fa28a0659b1",
+        "x": 22,
+        "y": 644
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "warlock0",
+        "x": 76,
+        "y": 676
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "orn22",
+        "x": 76,
+        "y": 658
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "🔮 24/24",
+        "texture": "550e0c25-dfb4-4c68-8ff6-331d37ec08db",
+        "x": 78,
+        "y": 620
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "1",
+        "texture": "3d38359d-0572-4684-b804-4e600e0e22e9",
+        "x": 108,
+        "y": 646
+      }
+    ]
+  },
+  {
+    "name": "hollin-landscape",
+    "errors": []
+  },
+  {
+    "name": "hollin-portrait",
+    "panel": "army",
+    "state": {
+      "panel": "army",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 58,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 58,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "🎌 TU EJÉRCITO",
+          "x": 360,
+          "y": 70,
+          "width": 208,
+          "height": 30,
+          "size": "27px"
+        },
+        {
+          "text": "Mazo 3/3  -  Doble clic (o mantén pulsado) para ver la ficha",
+          "x": 360,
+          "y": 110,
+          "width": 429,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "PORTAL",
+          "x": 0,
+          "y": 0,
+          "width": 65,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "página 1 / 3  -  25",
+          "x": 360,
+          "y": 1120,
+          "width": 145,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "Ordenar por:",
+          "x": 360,
+          "y": 150,
+          "width": 93,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "Afinidad",
+          "x": 0,
+          "y": 0,
+          "width": 63,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Fragmentos",
+          "x": 0,
+          "y": 0,
+          "width": 87,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Grado",
+          "x": 0,
+          "y": 0,
+          "width": 44,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Nombre",
+          "x": 0,
+          "y": 0,
+          "width": 59,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "◀",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "▶",
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "TU EJÉRCITO · mayor rango primero",
+          "x": 360,
+          "y": 867,
+          "width": 307,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 284,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 360,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥 2",
+          "x": 436,
+          "y": 959,
+          "width": 40,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "🔥",
+          "x": 360,
+          "y": 1042,
+          "width": 42,
+          "height": 32,
+          "size": "30px"
+        },
+        {
+          "text": "Ascua Mayor",
+          "x": -20,
+          "y": -30.5,
+          "width": 105,
+          "height": 28,
+          "size": "19px"
+        },
+        {
+          "text": "Solecito",
+          "x": -20,
+          "y": 1.5,
+          "width": 72,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Carbonilla",
+          "x": -20,
+          "y": -31.5,
+          "width": 101,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Brasero",
+          "x": -20,
+          "y": 2.5,
+          "width": 68,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Cascote",
+          "x": -20,
+          "y": -31.5,
+          "width": 78,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Guardián",
+          "x": -20,
+          "y": 2.5,
+          "width": 82,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 347,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 406,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Cenizal",
+          "x": -20,
+          "y": -31.5,
+          "width": 72,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Arenera",
+          "x": -20,
+          "y": 2.5,
+          "width": 71,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Charquito",
+          "x": -20,
+          "y": -31.5,
+          "width": 97,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Gotita",
+          "x": -20,
+          "y": 2.5,
+          "width": 57,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Chispazo",
+          "x": -20,
+          "y": -31.5,
+          "width": 87,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Rayo",
+          "x": -20,
+          "y": 2.5,
+          "width": 43,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 552,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 611,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Chisporroteo",
+          "x": -20,
+          "y": -30.5,
+          "width": 109,
+          "height": 28,
+          "size": "19px"
+        },
+        {
+          "text": "Pirotécnica",
+          "x": -20,
+          "y": 1.5,
+          "width": 101,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 125,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 125,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Corriente",
+          "x": -20,
+          "y": -31.5,
+          "width": 94,
+          "height": 30,
+          "size": "22px"
+        },
+        {
+          "text": "Brisa",
+          "x": -20,
+          "y": 2.5,
+          "width": 44,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 360,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 360,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "Escombrera",
+          "x": -20,
+          "y": -31,
+          "width": 110,
+          "height": 29,
+          "size": "21px"
+        },
+        {
+          "text": "Montaña",
+          "x": -20,
+          "y": 2,
+          "width": 76,
+          "height": 29,
+          "size": "20px"
+        },
+        {
+          "text": "Soldado de Primera",
+          "x": 595,
+          "y": 757,
+          "width": 148,
+          "height": 19,
+          "size": "17px"
+        },
+        {
+          "text": "30/60 - Sin estrenar",
+          "x": 595,
+          "y": 816,
+          "width": 144,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "FICHA",
+          "x": 0,
+          "y": 0,
+          "width": 45,
+          "height": 18,
+          "size": "16px"
+        },
+        {
+          "text": "X",
+          "x": 58,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        },
+        {
+          "text": "🎯 MI QUERER",
+          "x": 134,
+          "y": 70,
+          "width": 137,
+          "height": 23,
+          "size": "21px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-portrait",
+    "panel": "mine",
+    "state": {
+      "panel": "mine",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 58,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 58,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "⛏️ LA MINA",
+          "x": 360,
+          "y": 75,
+          "width": 137,
+          "height": 32,
+          "size": "25px"
+        },
+        {
+          "text": "Nivel 8 · 5 galerías · 0/4 picando",
+          "x": 360,
+          "y": 114,
+          "width": 236,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "30000000",
+          "x": 66,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 162,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 258,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 354,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 450,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 546,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "30000000",
+          "x": 642,
+          "y": 162,
+          "width": 55,
+          "height": 15,
+          "size": "13px"
+        },
+        {
+          "text": "⛲",
+          "x": 56,
+          "y": 200,
+          "width": 29,
+          "height": 19,
+          "size": "21px"
+        },
+        {
+          "text": "La Gotera",
+          "x": 86,
+          "y": 200,
+          "width": 84,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 240 · 🍬 60 · 🪵 3",
+          "x": 190,
+          "y": 230,
+          "width": 182,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "¡Listo! Toca",
+          "x": 190,
+          "y": 257,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪨",
+          "x": 396,
+          "y": 200,
+          "width": 29,
+          "height": 19,
+          "size": "21px"
+        },
+        {
+          "text": "El Desprendimiento",
+          "x": 426,
+          "y": 200,
+          "width": 166,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 660 · 🍬 160 · 🏛️ 4",
+          "x": 530,
+          "y": 230,
+          "width": 192,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "¡Listo! Toca",
+          "x": 530,
+          "y": 257,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "TRABAJOS ACTIVOS",
+          "x": 360,
+          "y": 294,
+          "width": 164,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 190,
+          "y": 356,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 190,
+          "y": 390,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 530,
+          "y": 356,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 530,
+          "y": 390,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 190,
+          "y": 488,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 190,
+          "y": 522,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "Galería libre",
+          "x": 530,
+          "y": 488,
+          "width": 107,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "⛏️",
+          "x": 530,
+          "y": 522,
+          "width": 33,
+          "height": 23,
+          "size": "24px"
+        },
+        {
+          "text": "ELIGE UNA GALERÍA",
+          "x": 360,
+          "y": 580,
+          "width": 167,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙",
+          "x": 88,
+          "y": 640,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Filón de Oro",
+          "x": 128,
+          "y": 622,
+          "width": 105,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 988  🪵",
+          "x": 128,
+          "y": 658,
+          "width": 95,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪵",
+          "x": 88,
+          "y": 742,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Bosque Bajo",
+          "x": 128,
+          "y": 724,
+          "width": 104,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 342  🪵 💚",
+          "x": 128,
+          "y": 760,
+          "width": 125,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🏛️",
+          "x": 88,
+          "y": 844,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Cantera",
+          "x": 128,
+          "y": 826,
+          "width": 67,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 456  🏛️ 🔷",
+          "x": 128,
+          "y": 862,
+          "width": 125,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "💎",
+          "x": 88,
+          "y": 946,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Galería de Gemas",
+          "x": 128,
+          "y": 928,
+          "width": 151,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 570  💚 ❤️ 💙",
+          "x": 128,
+          "y": 964,
+          "width": 155,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🕳️",
+          "x": 88,
+          "y": 1048,
+          "width": 28,
+          "height": 19,
+          "size": "20px"
+        },
+        {
+          "text": "Pozo Hondo",
+          "x": 128,
+          "y": 1030,
+          "width": 99,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "🪙 760  💙 🖤 🔷",
+          "x": 128,
+          "y": 1066,
+          "width": 155,
+          "height": 21,
+          "size": "18px"
+        },
+        {
+          "text": "A PICAR",
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 22,
+          "size": "19px"
+        },
+        {
+          "text": "X",
+          "x": 58,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-portrait",
+    "panel": "rift",
+    "state": {
+      "panel": "rift",
+      "close": [
+        {
+          "visible": true,
+          "enabled": true,
+          "x": 662,
+          "y": 1218
+        },
+        {
+          "visible": true,
+          "x": 662,
+          "y": 1218
+        }
+      ],
+      "texts": [
+        {
+          "text": "LA GRAN GRIETA",
+          "x": 360,
+          "y": 78,
+          "width": 215,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "大亀裂",
+          "x": 360,
+          "y": 116,
+          "width": 48,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "Cada bajada cambia. Una sola vida hasta el fondo.",
+          "x": 360,
+          "y": 158,
+          "width": 319,
+          "height": 16,
+          "size": "14px"
+        },
+        {
+          "text": "🏆 0",
+          "x": 201,
+          "y": 296,
+          "width": 64,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "expediciones superadas",
+          "x": 201,
+          "y": 346,
+          "width": 169,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💠 0 / 30",
+          "x": 519,
+          "y": 296,
+          "width": 124,
+          "height": 32,
+          "size": "28px"
+        },
+        {
+          "text": "reliquias descubiertas",
+          "x": 519,
+          "y": 346,
+          "width": 157,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "🩸",
+          "x": 104,
+          "y": 494,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Una barra de vida para toda la expedición.",
+          "x": 144,
+          "y": 494,
+          "width": 308,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "🗺️",
+          "x": 104,
+          "y": 580,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Elige el camino. Cada descenso cambia.",
+          "x": 144,
+          "y": 580,
+          "width": 287,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💎",
+          "x": 104,
+          "y": 666,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Busca reliquias y decide cuándo regresar.",
+          "x": 144,
+          "y": 666,
+          "width": 296,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "💀",
+          "x": 104,
+          "y": 752,
+          "width": 39,
+          "height": 26,
+          "size": "28px"
+        },
+        {
+          "text": "Los élites y jefes guardan mejores premios.",
+          "x": 144,
+          "y": 752,
+          "width": 314,
+          "height": 17,
+          "size": "16px"
+        },
+        {
+          "text": "⬇  COMENZAR EL DESCENSO",
+          "x": 0,
+          "y": 0,
+          "width": 277,
+          "height": 23,
+          "size": "21px"
+        },
+        {
+          "text": "X",
+          "x": 662,
+          "y": 1218,
+          "width": 14,
+          "height": 25,
+          "size": "22px"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hollin-portrait",
+    "battleObjects": [
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 1084
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 971
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellGhost",
+        "x": 102,
+        "y": 857
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 1084
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 971
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "cellHi",
+        "x": 102,
+        "y": 857
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "icoShield",
+        "x": 102,
+        "y": 768
+      },
+      {
+        "type": "Image",
+        "name": "",
+        "texture": "croc",
+        "x": 102.28058334845817,
+        "y": 720
+      },
+      {
+        "type": "Text",
+        "name": "",
+        "text": "🏰",
+        "texture": "36731e7a-d1da-4ed2-9b12-1ca9cccf0fd5",
+        "x": 92,
+        "y": 1146
+      }
+    ]
+  },
+  {
+    "name": "hollin-portrait",
+    "errors": []
+  }
+]

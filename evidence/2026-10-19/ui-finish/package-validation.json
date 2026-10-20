@@ -1,0 +1,10 @@
+{
+  "zip_bytes": 25646130,
+  "web_bytes": 28707876,
+  "files": 113,
+  "sha256": "bb382ae3e44b786fe77e9b694e41abd755f5840080906e5604bbfe713d730873",
+  "crc": "PASS",
+  "manifest_sha256": "PASS",
+  "source_maps": false,
+  "minifier": "terser"
+}

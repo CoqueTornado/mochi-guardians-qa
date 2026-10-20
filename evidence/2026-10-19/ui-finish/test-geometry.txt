@@ -1,0 +1,21 @@
+
+> scrapline@0.1.0 test:geometry
+> node tests/geometry.test.mjs
+
+ok  : iPhone SE/mochi/es: arranca y monta 34 pantallas
+FAIL: iPhone SE/mochi/es: los 791 textos se leen — 12 por debajo de 11 px CSS: "Dangoshi"=10.4, "Antorcha"=10.9, "Dangoshi"=7.8
+FAIL: iPhone SE/mochi/es: las 272 zonas tocables caben en un dedo — 2 por debajo de 44 px: button-face-520-80=42, button-face-520-60=31
+ok  : iPhone SE/mochi/es: nada se sale del lienzo
+FAIL: iPhone SE/mochi/es: ninguna zona tocable pisa a otra — Base:?/?, Base:bldBarracks/?, Base:bldMap/?
+ok  : iPhone SE/mochi/es: ningún texto queda enterrado bajo otra cosa
+ok  : iPhone SE/mochi/es: ningún texto se escribe encima de otro
+ok  : iPhone SE/mochi/es: solo se ven siluetas del bando que toca
+ok  : iPhone SE/hollin/en: arranca y monta 34 pantallas
+FAIL: iPhone SE/hollin/en: los 795 textos se leen — 13 por debajo de 11 px CSS: "Steamed Bun"=9.4, "Steamed Bun"=9.4, "Corriente"=10.4
+ok  : iPhone SE/hollin/en: nada se sale del lienzo
+ok  : iPhone SE/hollin/en: ningún texto queda enterrado bajo otra cosa
+ok  : iPhone SE/hollin/en: ningún texto se escribe encima de otro
+FAIL: iPhone SE/hollin/en: las 273 zonas tocables caben en un dedo — 2 por debajo de 44 px: button-face-520-80=42, button-face-520-60=31
+FAIL: iPhone SE/hollin/en: ninguna zona tocable pisa a otra — Base:?/?, Base:bldBox/?, Base:bldInn/?
+ok  : iPhone SE/hollin/en: solo se ven siluetas del bando que toca
+ok  : se midieron muchos objetos de verdad (1586 textos, 545 tocables, 68 pantallas)

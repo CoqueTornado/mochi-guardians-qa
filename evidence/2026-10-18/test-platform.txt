@@ -1,0 +1,77 @@
+
+> scrapline@0.1.0 test:platform
+> node tests/platform.test.mjs
+
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/storage.ts:25:13:
+      25 │ const demo = import.meta.env?.VITE_DEMO === 'true'
+         ╵              ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: reads existing save
+PASS: failed write preserves newest session progress
+PASS: switching sides preserves pending progress
+PASS: failed deletion does not resurrect old save
+PASS: other side remains intact
+PASS: storage writes recover
+PASS: successful storage still sees external updates
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/storage.ts:25:13:
+      25 │ const demo = import.meta.env?.VITE_DEMO === 'true'
+         ╵              ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: storage unavailable entirely
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/poki.ts:51:6:
+      51 │   if (import.meta.env?.VITE_DEMO === 'true') return undefined
+         ╵       ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: late SDK receives loading and current gameplay once
+PASS: duplicate lifecycle events suppressed
+PASS: stop deduplicated
+PASS: commercial error resumes caller and restores audio
+PASS: commercial error always restores controls
+PASS: SDK controls frequency even for consecutive natural breaks
+PASS: confirmed completed video earns reward
+PASS: fast false response cannot earn reward
+PASS: SDK rejection reports unavailable
+PASS: unavailable never earns bonus
+PASS: busy never earns bonus
+PASS: second concurrent request is ignored
+PASS: original ad still resolves
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/poki.ts:51:6:
+      51 │   if (import.meta.env?.VITE_DEMO === 'true') return undefined
+         ╵       ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: production without SDK cannot earn bonus
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/poki.ts:51:6:
+      51 │   if (import.meta.env?.VITE_DEMO === 'true') return undefined
+         ╵       ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: localhost keeps explicit reward simulation
+▲ [WARNING] "import.meta" is not available with the "cjs" output format and will be empty [empty-import-meta]
+
+    src/platform/poki.ts:51:6:
+      51 │   if (import.meta.env?.VITE_DEMO === 'true') return undefined
+         ╵       ~~~~~~~~~~~
+
+  You need to set the output format to "esm" for "import.meta" to work correctly.
+
+PASS: failed initialization remains playable without reward
+24 platform regression checks passed

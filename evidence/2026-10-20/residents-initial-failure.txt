@@ -1,0 +1,25 @@
+
+> scrapline@0.1.0 test:browser-lair-residents
+> node tests/browser-lair-residents.test.mjs
+
+ok mochi-mobile: colección paseante, rutas, ficha, zoom real con dos dedos y afecto
+ok mochi-desktop: colección paseante, rutas, ficha
+ok hollin-mobile: colección paseante, rutas, ficha, zoom real con dos dedos y afecto
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+'kasai' !== 'nami'
+
+    at file:///E:/proyectos%20programaci%C3%B3n/juego%20poki%20Fable%205/scrapline/tests/browser-lair-residents.test.mjs:89:12 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'kasai',
+  expected: 'nami',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.11.1

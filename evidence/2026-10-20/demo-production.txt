@@ -1,0 +1,21 @@
+✔ Demo HTML package: production module and no source maps (51.1197ms)
+▶ Browser startup, locale preference, reload and orientation
+  ✔ landscape-es (6604.4963ms)
+  ✔ landscape-en (5941.5849ms)
+  ✔ landscape-ru (7036.9931ms)
+  ✔ landscape-ja (6494.8815ms)
+  ✔ landscape-zh (6803.6553ms)
+  ✔ portrait-es (6529.6483ms)
+  ✔ portrait-en (7454.4078ms)
+  ✔ portrait-ru (6896.536ms)
+  ✔ portrait-ja (6714.5665ms)
+  ✔ portrait-zh (6592.0741ms)
+✔ Browser startup, locale preference, reload and orientation (67649.2805ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 68116.6207

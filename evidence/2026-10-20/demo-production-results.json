@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-19T22:06:13.466Z",
+  "target": "http://127.0.0.1:56419/",
+  "edition": "demo",
+  "node": "v24.11.1",
+  "platform": "win32",
+  "suiteSha256": "0dfef563eaeb402a1950cf2ab9e5f402bb55ff2ecfdf2eefba9aef07ee6a815d",
+  "scope": "Black-box smoke; screenshot capture is not automatic visual approval",
+  "results": [
+    {
+      "name": "production-package",
+      "status": "passed",
+      "scripts": 1
+    },
+    {
+      "name": "landscape-es",
+      "status": "passed",
+      "viewport": "1280x720",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "landscape-en",
+      "status": "passed",
+      "viewport": "1280x720",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "landscape-ru",
+      "status": "passed",
+      "viewport": "1280x720",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "landscape-ja",
+      "status": "passed",
+      "viewport": "1280x720",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "landscape-zh",
+      "status": "passed",
+      "viewport": "1280x720",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "portrait-es",
+      "status": "passed",
+      "viewport": "412x915",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "portrait-en",
+      "status": "passed",
+      "viewport": "412x915",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "portrait-ru",
+      "status": "passed",
+      "viewport": "412x915",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "portrait-ja",
+      "status": "passed",
+      "viewport": "412x915",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    },
+    {
+      "name": "portrait-zh",
+      "status": "passed",
+      "viewport": "412x915",
+      "errors": [],
+      "failedRequests": [],
+      "external": []
+    }
+  ],
+  "browser": "155.0.4283.62"
+}

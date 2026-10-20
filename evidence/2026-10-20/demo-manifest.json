@@ -1,0 +1,574 @@
+{
+  "builtAt": "2026-10-19T22:05:59.422Z",
+  "edition": "demo",
+  "lastLevel": 2,
+  "sourceMaps": false,
+  "minifier": "terser",
+  "files": [
+    {
+      "path": "art/bosses/hollin-apagafarol.webp",
+      "bytes": 16132,
+      "sha256": "bde5bdb536261757fd5fed1a13084d60551502cead09208c4f2b3d449f233437"
+    },
+    {
+      "path": "art/bosses/hollin-brasarron.webp",
+      "bytes": 16288,
+      "sha256": "acccb4d0eda3a991ac761bc3db5257ae7c316cc77680a456257b720989cd5260"
+    },
+    {
+      "path": "art/bosses/hollin-caracoco.webp",
+      "bytes": 19916,
+      "sha256": "716da7d7059528aba3b1fc2f84e8308fc4dcb20bf572aef18f911688d0b3693b"
+    },
+    {
+      "path": "art/bosses/hollin-charcoscuro.webp",
+      "bytes": 15478,
+      "sha256": "0b6dc90e1494b64c815f7dbc95794ec866402af1441cb20b0ea93edad129194d"
+    },
+    {
+      "path": "art/bosses/hollin-cometon.webp",
+      "bytes": 15428,
+      "sha256": "67548959d76a0d48cd63f1fef58e447102fc7833b6752037f4f698346544bc12"
+    },
+    {
+      "path": "art/bosses/hollin-glaciarron.webp",
+      "bytes": 22810,
+      "sha256": "308bf4a5f94192285ee08b16dd6396122f82647de07bbd5afe1a37604e139e20"
+    },
+    {
+      "path": "art/bosses/hollin-marea.webp",
+      "bytes": 11306,
+      "sha256": "ec5552d3f1d95787cb17d42f9c3ce7c25e56159de6ae7ed484385a59a189540c"
+    },
+    {
+      "path": "art/bosses/hollin-musgon.webp",
+      "bytes": 19752,
+      "sha256": "896aeca2f9da39c8e032a8234b75ac168772a9010b2eec12b53554e29c702bc0"
+    },
+    {
+      "path": "art/bosses/hollin-papelon.webp",
+      "bytes": 14648,
+      "sha256": "0cd6c9689b66e2117873fd9ba0be7cdc9d503d4483a6e718e57b17d5cf3c9567"
+    },
+    {
+      "path": "art/bosses/hollin-reyhollin.webp",
+      "bytes": 20052,
+      "sha256": "c0124ae1080b7223369c9a4f29d977100993ba40ed847f7826a07a651c3dd3d8"
+    },
+    {
+      "path": "art/bosses/hollin-rubortina.webp",
+      "bytes": 13606,
+      "sha256": "0b723717d2aa480d09dec224ba856401496b4c61b3bf0f0f09b91fe8cacf25e9"
+    },
+    {
+      "path": "art/bosses/hollin-ventiscoso.webp",
+      "bytes": 16848,
+      "sha256": "b25b6121a8f5eae0511852ea31971efd8ed448273b9e8ee90fb24926de83a37e"
+    },
+    {
+      "path": "art/bosses/mochi-apagafarol.webp",
+      "bytes": 16896,
+      "sha256": "4e5f1bad96a444f461ea694f6018adec243f5b3368ed7744701c6bdfa2098139"
+    },
+    {
+      "path": "art/bosses/mochi-brasarron.webp",
+      "bytes": 15626,
+      "sha256": "22bab920b2fc2a4efa0423c991152b84a66ff3adcd4fe8516eeb6e1e86b0e851"
+    },
+    {
+      "path": "art/bosses/mochi-caracoco.webp",
+      "bytes": 20208,
+      "sha256": "39e20308ccea330335e661130b4e7cb88c85efe034e1bfe82c45c2770da07bc4"
+    },
+    {
+      "path": "art/bosses/mochi-charcoscuro.webp",
+      "bytes": 17616,
+      "sha256": "35c1c0ccf5c0e605a84cac4580e4b95d7366b35f7ce1a2aaab2c730e0ee544d9"
+    },
+    {
+      "path": "art/bosses/mochi-cometon.webp",
+      "bytes": 19210,
+      "sha256": "f98d257e976c8b9e25e9ebc6deed8ebc8d434e4e480cb9c7f41fdec2040a281a"
+    },
+    {
+      "path": "art/bosses/mochi-glaciarron.webp",
+      "bytes": 22882,
+      "sha256": "d15f40df950b42806b499c7d1f01b173008da1d2f227da0e2c2ddfd3d61dcf73"
+    },
+    {
+      "path": "art/bosses/mochi-marea.webp",
+      "bytes": 18636,
+      "sha256": "b45136650c098d845f67f0bf681b147c4abe1543cc913d2605bbd1577a02bf45"
+    },
+    {
+      "path": "art/bosses/mochi-musgon.webp",
+      "bytes": 15738,
+      "sha256": "04895252e26fd3e77187d7d2171345a7fda0e8dfeb75ba4b08aa024a59eaaf02"
+    },
+    {
+      "path": "art/bosses/mochi-papelon.webp",
+      "bytes": 14664,
+      "sha256": "b5036be8ab1f15f1b5eeb4e778489234b2e37268c337fb35c601c807265e57e0"
+    },
+    {
+      "path": "art/bosses/mochi-reyhollin.webp",
+      "bytes": 22482,
+      "sha256": "2375efebc912b22193509cdfc6ed1c5bf4e2c1e68f403f18a80dd9cef2f07c72"
+    },
+    {
+      "path": "art/bosses/mochi-rubortina.webp",
+      "bytes": 13866,
+      "sha256": "4e2f47de3f61275c9ff70e0555381cf4f07622e36617067ad572be3b5466e234"
+    },
+    {
+      "path": "art/bosses/mochi-ventiscoso.webp",
+      "bytes": 11798,
+      "sha256": "fd08cf5085213b101274812b95e073aa78e6dae623cc45dfbabe0e2b063c4a59"
+    },
+    {
+      "path": "art/en/lair-hollin.webp",
+      "bytes": 171224,
+      "sha256": "28d710b0a12864dac1dbf323821fecfd2ec2b807a12abf9d6d4b15f980bf4aab"
+    },
+    {
+      "path": "art/en/lair-mochi.webp",
+      "bytes": 147294,
+      "sha256": "7eaedd9207d7cf2d85cec65d9126b79c5b8771080aa64036e0db3546b2e0976c"
+    },
+    {
+      "path": "art/en/menu.webp",
+      "bytes": 350922,
+      "sha256": "f830dcead4591a15d342f687fdc58d13ba464b873d595628bea0e165dee15be6"
+    },
+    {
+      "path": "art/en/portal-hollin.webp",
+      "bytes": 154746,
+      "sha256": "4b73aedf4eb8bb16e3bc6d4f9993cb83ba9f2cf29644f0bade2afb58b30263b9"
+    },
+    {
+      "path": "art/en/portal-mochi.webp",
+      "bytes": 110886,
+      "sha256": "bac7851ddc202bbd71d26e6c446fa4f4a5df06959a17be936e4a08c14f424010"
+    },
+    {
+      "path": "art/es/lair-hollin.webp",
+      "bytes": 170596,
+      "sha256": "ba9ef70ea7bdc6daccafe3393d1e343119fe290064cb2ac13169e780c418a2b8"
+    },
+    {
+      "path": "art/es/lair-mochi.webp",
+      "bytes": 140790,
+      "sha256": "0a2b6807df266fc40e7472260df662a25918d96c27c5201f405688ea91e08b07"
+    },
+    {
+      "path": "art/es/menu.webp",
+      "bytes": 146408,
+      "sha256": "17010c9166a422b33cb598653932f883988b613d22f656c7edc66a5371370d28"
+    },
+    {
+      "path": "art/es/portal-hollin.webp",
+      "bytes": 155594,
+      "sha256": "d6c667b2c75dbb9f8cb36f38af4e1b58cad7da8ff572742ffe596c7f4207fcc2"
+    },
+    {
+      "path": "art/es/portal-mochi.webp",
+      "bytes": 109502,
+      "sha256": "c52b8a56f23cdacd4f391f776c0fd1b6726a4881b47f9f3a57f1dca747d96d75"
+    },
+    {
+      "path": "art/floor-hollin.webp",
+      "bytes": 137358,
+      "sha256": "43220ee323055bca425a19a8b37f0f1ced44c330fa7a723d370e24c6dd280bd1"
+    },
+    {
+      "path": "art/floor-mochi.webp",
+      "bytes": 107166,
+      "sha256": "781c0cc7ddafe6a263a30e676218007f046ba9e3eec74c186f36d3b41f222fea"
+    },
+    {
+      "path": "art/foes/hollin-0.webp",
+      "bytes": 3882,
+      "sha256": "cafffc05cf1fa64eecf4b6438c5c4dda4da97a28a85b45f5ad787cbd3ec47457"
+    },
+    {
+      "path": "art/foes/hollin-1.webp",
+      "bytes": 6270,
+      "sha256": "4d214ed4af5709c8f61c6a618116aa47193cddce209bf471d1ed89de874b4536"
+    },
+    {
+      "path": "art/foes/hollin-2.webp",
+      "bytes": 2968,
+      "sha256": "bab2220790c920b3ce9dbe3e8fa744b96794e3e57b0e90f2d1ba66bcfb6adde8"
+    },
+    {
+      "path": "art/foes/hollin-3.webp",
+      "bytes": 2968,
+      "sha256": "8db363326ceafe2b0bf37528c5b2f80988d75ff1519defbd1ac52f66e91a5977"
+    },
+    {
+      "path": "art/foes/hollin-4.webp",
+      "bytes": 3314,
+      "sha256": "f3fefe12f33eb3aff24ebd0d2a2653428c9ff4d06f45cbcbea337cf080b91fe6"
+    },
+    {
+      "path": "art/foes/hollin-5.webp",
+      "bytes": 1870,
+      "sha256": "beee6dd32a712f03ad8f94b9f9d3d35ace271d21c17eab429a060b1f4a50cb92"
+    },
+    {
+      "path": "art/foes/hollin-6.webp",
+      "bytes": 4788,
+      "sha256": "4a8a14ebc3afc46e83aa36c7b410ad46842fed7ab4940e45ff3556a5a95aa767"
+    },
+    {
+      "path": "art/foes/hollin-7.webp",
+      "bytes": 3074,
+      "sha256": "7820742a89b0743f4e7f6d39686769a3c021a7671b83fa36c1a41e6b0856fefc"
+    },
+    {
+      "path": "art/foes/mochi-0.webp",
+      "bytes": 3364,
+      "sha256": "dec7e0aa810070c54946817d9b2b4b91120296b12005abc8dac3734e1b457ca6"
+    },
+    {
+      "path": "art/foes/mochi-1.webp",
+      "bytes": 4326,
+      "sha256": "d925859231e79308aaec41e80d678bd65b07897f60969d93943467c7feccd744"
+    },
+    {
+      "path": "art/foes/mochi-2.webp",
+      "bytes": 3750,
+      "sha256": "747753cf87e45228104998ce92d33487ea95261beb3c9d89d719ae7ab3427bd7"
+    },
+    {
+      "path": "art/foes/mochi-3.webp",
+      "bytes": 2702,
+      "sha256": "35291248890365be55256e51c73be766ba0c848e91ca65c389149a14811dcf79"
+    },
+    {
+      "path": "art/foes/mochi-4.webp",
+      "bytes": 2476,
+      "sha256": "b53907fd59fbd91310a1e77f6e7cfdc2fd7233ae92e98d3cd755f0e9535dda1f"
+    },
+    {
+      "path": "art/foes/mochi-5.webp",
+      "bytes": 2458,
+      "sha256": "ac36ef19e7475197cf4b563026732e022429f799b906c0f4018293a2f1ea4027"
+    },
+    {
+      "path": "art/foes/mochi-6.webp",
+      "bytes": 4662,
+      "sha256": "a25d49c10053c8bcf37e654b38d4d14ab784774510bc877e6125fe69b047bd8e"
+    },
+    {
+      "path": "art/foes/mochi-7.webp",
+      "bytes": 2942,
+      "sha256": "a2c1dabf14b2fa31a25df21457d96f34321437bb70d323a344fdf5f0df6c8d59"
+    },
+    {
+      "path": "art/fx/fist-hollin.svg",
+      "bytes": 933,
+      "sha256": "4f461b0702924b3e65564e7fdce20c8c5f5dc620531acf520c0f2bb6d3053dc4"
+    },
+    {
+      "path": "art/fx/fist-mochi.svg",
+      "bytes": 933,
+      "sha256": "541d955c145b8c9c9108875b86af9b3ee552f1b05d12d3486658fe679b5ff659"
+    },
+    {
+      "path": "art/guardians/hollin/guardians-pilot.json",
+      "bytes": 164691,
+      "sha256": "d2a89e38717c5d3a5845fd14a9c9c6eda52648724d9dceff7b110a169715b338"
+    },
+    {
+      "path": "art/guardians/hollin/guardians-pilot.webp",
+      "bytes": 1200932,
+      "sha256": "f4e9cdea0fa79da0b2e5cba62f0b140bed6bb7bdc9ef7321a5a86a29f72374f0"
+    },
+    {
+      "path": "art/guardians/hollin/guardians-svg-hollin.json",
+      "bytes": 28909,
+      "sha256": "863a2cc70a67002fe5cc417839714d87bf3ca814ce018f5510cad0658f322719"
+    },
+    {
+      "path": "art/guardians/hollin/guardians-svg-hollin.webp",
+      "bytes": 333684,
+      "sha256": "bc5b0151cd1a56a5eff7ca5e0a5d1d3871e0f2889aa81c5205f692885681fc7f"
+    },
+    {
+      "path": "art/guardians/mochi/guardians-pilot.json",
+      "bytes": 164632,
+      "sha256": "e4f2223a94268bae4a091e961adef09313a19d20de1da6c9909c555616985a6d"
+    },
+    {
+      "path": "art/guardians/mochi/guardians-pilot.webp",
+      "bytes": 1424540,
+      "sha256": "6fb42be3c68d2ae7ce229936782613c585d74b225449877cb78480283843ed93"
+    },
+    {
+      "path": "art/guardians/mochi/guardians-svg-mochi.json",
+      "bytes": 28884,
+      "sha256": "d23528a11dc603989485bf2e386f4bce812ff392ecb5dceb07a0acc3d1a4e795"
+    },
+    {
+      "path": "art/guardians/mochi/guardians-svg-mochi.webp",
+      "bytes": 309948,
+      "sha256": "41517f02acd93f1139c13ffa9d99015afd656edca980d13e6375d8fc82ec3a61"
+    },
+    {
+      "path": "art/intro.webp",
+      "bytes": 99576,
+      "sha256": "0d7fe0f9a790e063c2df0b5048349589c9283baefeccb0d45902538f741899f7"
+    },
+    {
+      "path": "art/mapas/cesped.webp",
+      "bytes": 203140,
+      "sha256": "c2f410d21220c1e4062f47ea0c6025dd4f1d0537a8dd5f63e69e52e0238d82a3"
+    },
+    {
+      "path": "art/mapas/cocina.webp",
+      "bytes": 178090,
+      "sha256": "eaf07855d36c4e3b7f388c8d2129b6100efa3161621a4b06dd4cbd53290962b8"
+    },
+    {
+      "path": "art/mapas/madriguera.webp",
+      "bytes": 69114,
+      "sha256": "964da5ec4dca259a193e48ee187ed7671b5db288298955db5ee6c3364057a052"
+    },
+    {
+      "path": "assets/index-U6vxtUVT.js",
+      "bytes": 4036482,
+      "sha256": "4977eeed17b6e54035333bd65ebe1d70c3a0d137d4c4a9746d8ce8a7ff02ca53"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 1786,
+      "sha256": "02c7273b93ee7b0590e27208f8ec3764b80d0c985359d996a1d73fe993e771b2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3417,
+      "sha256": "495fa0aa59ddeea3b5ad3223eb6826bcdbed96d9086c06032605a3af76d551d4"
+    },
+    {
+      "path": "musica/battle.mp3",
+      "bytes": 3256897,
+      "sha256": "31c496bae826cfa07ae4a1367316254df8fb3366e097cff57ea3a561d41b19bc"
+    },
+    {
+      "path": "musica/battle2.mp3",
+      "bytes": 3601285,
+      "sha256": "31e79d2b5384ca90c05ba6a6baa29a47006e89b06b35bd191b191e8b23fe8921"
+    },
+    {
+      "path": "musica/hollincitos.mp3",
+      "bytes": 2821588,
+      "sha256": "76c41cbd0a001a5c0a137054238954174bfd3e54c65d81944853be81f352661f"
+    },
+    {
+      "path": "musica/mochis.mp3",
+      "bytes": 3079395,
+      "sha256": "d68dfeefa8dea9edb96dd5b8d39f89c6ad935e08c057a61c884b546fa667e46b"
+    },
+    {
+      "path": "portadaVertical.webp",
+      "bytes": 123038,
+      "sha256": "fffe988285477c9eb8811f2c1ccb4c20836374d3fdc18982f052855868aea4a5"
+    },
+    {
+      "path": "vertical/arena (1)-5lanes.webp",
+      "bytes": 120568,
+      "sha256": "53efdbcc1a79eb341f084408a513f80178287992e730385dd75bf6607be0d35f"
+    },
+    {
+      "path": "vertical/arena (1).webp",
+      "bytes": 71482,
+      "sha256": "44611c6891358794180b8e03cb84bb4a0f558060a85c32fcb6b3f1fb4acb3015"
+    },
+    {
+      "path": "vertical/arena (2).webp",
+      "bytes": 59878,
+      "sha256": "cff6ce09a22f24b48ac37fdb1ba5bdbf28f407332f3088599572c305abfbad7f"
+    },
+    {
+      "path": "vertical/arena-hollin-5lanes-v2.webp",
+      "bytes": 86940,
+      "sha256": "edd2a645f376da1f08cdf2399958c274fda091caa92b4d243c70fdf23e97d125"
+    },
+    {
+      "path": "vertical/arena-mochi-5lanes-v2.webp",
+      "bytes": 104040,
+      "sha256": "d1e7ff40f20b546135109a8acb2051026f6947ac56ed9317cac28bdf4313eb4c"
+    },
+    {
+      "path": "vertical/castle-works-hollin-v1.webp",
+      "bytes": 68358,
+      "sha256": "aaeed96cd267c1746762a0b6c78358d0f4472d219a077e91dce7669879fa2b45"
+    },
+    {
+      "path": "vertical/castle-works-mochi-v1.webp",
+      "bytes": 64680,
+      "sha256": "46cf7fde700a091e52a619174f640f730000235d50728874f92ada9f73ccce23"
+    },
+    {
+      "path": "vertical/credits-hollin-v1.webp",
+      "bytes": 69774,
+      "sha256": "fced245b665c59f7b7ae70b288efbf0d968cf56651a0209493a080b9d3f92c5b"
+    },
+    {
+      "path": "vertical/credits-mochi-v1.webp",
+      "bytes": 67870,
+      "sha256": "b8f81826e04fa94ee898b4d45eda9adea56710eb4e41e8b47728fd9fa00d10cc"
+    },
+    {
+      "path": "vertical/expeditions-green-v1.webp",
+      "bytes": 141572,
+      "sha256": "0ff21d97987c26210f402cfe84956554ccc314d4560bea82d99f0ff0d576eacf"
+    },
+    {
+      "path": "vertical/intro (1).webp",
+      "bytes": 123038,
+      "sha256": "fffe988285477c9eb8811f2c1ccb4c20836374d3fdc18982f052855868aea4a5"
+    },
+    {
+      "path": "vertical/intro (2).webp",
+      "bytes": 15956,
+      "sha256": "f18741435a683328f3aa56bb4acae7225df4b7f14afdc8ee4ae79fa03780343a"
+    },
+    {
+      "path": "vertical/invocacion (1).webp",
+      "bytes": 148510,
+      "sha256": "6c6bd8287de1fa893d94d1cc55a13ea67fe6adcfe887b10651e911ebce4d2c54"
+    },
+    {
+      "path": "vertical/invocacion (2).webp",
+      "bytes": 76776,
+      "sha256": "1b9dec9f6defaebebb60d421488c59188ea85daa5feafcacb8f071abd52de5bf"
+    },
+    {
+      "path": "vertical/kennel-dungeon-v1.webp",
+      "bytes": 108656,
+      "sha256": "65a3b15f58890831179b092e3771f363a92b3e32542780676c35a433b0371ae4"
+    },
+    {
+      "path": "vertical/lair-hollin-v.webp",
+      "bytes": 243948,
+      "sha256": "68adf6cdae302954133070ebe237a77921f3ec50bbcfd4364c67857de6f78da2"
+    },
+    {
+      "path": "vertical/lair-hollin-v1.webp",
+      "bytes": 320502,
+      "sha256": "4aeec30520af4aec8722fffb06983202cce405817b7f5dbdfc3ce051a5d04ce4"
+    },
+    {
+      "path": "vertical/lair-hollin-v2.webp",
+      "bytes": 323042,
+      "sha256": "df607bb0b33812dcdbed93a16985578437102f12d57f52e008ca57d48381b148"
+    },
+    {
+      "path": "vertical/lair-hollin-v3.webp",
+      "bytes": 339030,
+      "sha256": "a6c28e0bac233fc9ab6af2047bedd465047c511c8ace47d2c82b994577a1115c"
+    },
+    {
+      "path": "vertical/lair-mochi-v.webp",
+      "bytes": 231404,
+      "sha256": "df80d7cc9e6f329ac5ad98b56d31cffbf82ea17d68859474082e6955e46acd50"
+    },
+    {
+      "path": "vertical/lair-mochi-v1.webp",
+      "bytes": 319898,
+      "sha256": "db8afe3453d69f1284d08783e1fb8dd4ab0c41029404fbeb427828a0069e1676"
+    },
+    {
+      "path": "vertical/lair-mochi-v2.webp",
+      "bytes": 324796,
+      "sha256": "6e40805507331a78d770deb68e758cd7ba9ab623669f2b60138ba54f0a1472c5"
+    },
+    {
+      "path": "vertical/lair-mochi-v3.webp",
+      "bytes": 331606,
+      "sha256": "47db669f1ae9190155c29a5189b60e244b8d1654e3dae91d05fd11f7de84e121"
+    },
+    {
+      "path": "vertical/mapa (1).webp",
+      "bytes": 130404,
+      "sha256": "1d73b6ead09b4fdb2f78dc4516cd0bb45be2d16248c84f0f6ce639c67027eb5e"
+    },
+    {
+      "path": "vertical/mapa (2).webp",
+      "bytes": 128854,
+      "sha256": "1f085fc3e2012b0f7d681cb59da7091e765c8b90bb4d3360a5bbd1b42ff89827"
+    },
+    {
+      "path": "vertical/mapa (3).webp",
+      "bytes": 66838,
+      "sha256": "d569e7b9d43b03d43bd602088c8cac31fce7a778aabcd3aa306d1f3912034b97"
+    },
+    {
+      "path": "vertical/moon-altar-v1.webp",
+      "bytes": 94352,
+      "sha256": "20dd7e94adcbfe9eca7c74b56116faaf0bf94066c613a457161e93ab4f389e32"
+    },
+    {
+      "path": "vertical/options-hollin-v.webp",
+      "bytes": 129114,
+      "sha256": "71d5c6a0c289e6df11e9a50aa336c4a8f7ef01bcff7501adff255053b20a86c0"
+    },
+    {
+      "path": "vertical/options-mochi-v.webp",
+      "bytes": 101554,
+      "sha256": "722605cc55d2f2b74a9cbf6bca093fa1a13ecfacd28f7a808a7cd605a217364e"
+    },
+    {
+      "path": "vertical/orchard-paradise-v1.webp",
+      "bytes": 215248,
+      "sha256": "48cd5118e05553cf90aed97ec953efb2a35538dd0ed9fac5ed94f1d13e3a5d27"
+    },
+    {
+      "path": "vertical/rift-hollin-v1.webp",
+      "bytes": 67834,
+      "sha256": "3195f54f38a94278dc08d262457a824c8a65104e0d087c00715de7b80396e179"
+    },
+    {
+      "path": "vertical/rift-mochi-v1.webp",
+      "bytes": 61810,
+      "sha256": "637b7272fed7f29ae4a026c5d6b618e03075ea1ac5a128dd69ad777613d42c96"
+    },
+    {
+      "path": "vertical/sheet-catcher-v1.webp",
+      "bytes": 33892,
+      "sha256": "53bc98741ad2a6a4db57ef6b610ae9bb0d3c20e74934380c619e60def7975e47"
+    },
+    {
+      "path": "vertical/sheet-field-mochi-v1.webp",
+      "bytes": 52098,
+      "sha256": "8bf2f9d98ac2097e411e043a8c3e61b6e07b1f3447627fc5648a9b44740da96b"
+    },
+    {
+      "path": "vertical/sheet-ruins-hollin-v1.webp",
+      "bytes": 104880,
+      "sha256": "4057bb6749c5a47567d55bfcf6e7679e09b989f32cdda097c3345ab1fd98117e"
+    },
+    {
+      "path": "vertical/shrine-hollin-v1.webp",
+      "bytes": 73476,
+      "sha256": "aeb04e4f08a4979f7fc20f05f6dfc8a111cddae992be0f16eceb80efa09f2ea6"
+    },
+    {
+      "path": "vertical/shrine-mochi-v1.webp",
+      "bytes": 71538,
+      "sha256": "e5b4059de8c5c4c2cf9acebf21e95df44494f01ab63a76b61f13549d82b6de3c"
+    },
+    {
+      "path": "vertical/welcome-loot-hollin-v1.webp",
+      "bytes": 57398,
+      "sha256": "32067dc2a3dee16e77a6cb6032e59e872270b63493ba4a2024928b34253f87ac"
+    },
+    {
+      "path": "vertical/welcome-loot-mochi-v1.webp",
+      "bytes": 54994,
+      "sha256": "df07b11bc914e99e333160b60730e3fd29c144be59af4680bbe881c0b555ad10"
+    }
+  ]
+}

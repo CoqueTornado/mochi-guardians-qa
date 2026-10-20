@@ -1,0 +1,69 @@
+
+> scrapline@0.1.0 test:art
+> esbuild tests/art.test.mjs --bundle --format=esm --platform=node --outfile=tests/.art.bundle.mjs --external:node:* --log-level=error && node tests/.art.bundle.mjs
+
+ok  : hay seis fondos
+ok  : cada uno con su nombre dentro del juego
+ok  : y con su fichero
+ok  : nombres únicos
+ok  : ficheros únicos
+ok  : la ruta lleva el idioma dentro
+ok  : y NUNCA empieza por barra: en Poki el juego no vive en la raíz
+ok  : los idiomas nuevos usan el arte inglés disponible
+ok  : los cuatro fondos en es existen
+ok  : los cuatro fondos en en existen
+ok  : el juego de fondos de es pesa 803 kB y cabe de sobra
+ok  : el juego de fondos de en pesa 1010 kB y cabe de sobra
+ok  : el arranque pide los fondos
+ok  : y decide el idioma ANTES de pedir nada
+ok  : se pide UNA ruta por pantalla, no dos
+ok  : los suelos se piden sin idioma
+ok  : y los tres cuadros del mapa, igual
+ok  : y un fondo que no llegue no rompe nada
+ok  : hay tres cuadros de mapa
+ok  : y se llaman por sitio, no por número
+ok  : cada uno con su nombre dentro del juego
+ok  : nombres únicos
+ok  : la ruta NO lleva idioma: no tienen una letra pintada
+ok  : y nunca empieza por barra
+ok  : los tres cuadros existen
+ok  : los tres juntos pesan 440 kB, y se bajan UNA vez para los dos idiomas
+ok  : hay una forma de volver a pedir los fondos en otro idioma
+ok  : carga claves temporales y actualiza las referencias antes de liberar las viejas
+ok  : y avisa cuando están, para poder reiniciar la escena
+ok  : si no había ninguno cargado, no pide nada (tests headless)
+ok  : no vuelve a bajar los suelos ni los mapas
+ok  : BaseScene recarga los cuadros al cambiar de idioma
+ok  : GameScene recarga los cuadros al cambiar de idioma
+ok  : no se llama a ningún servidor de fuera para saber el país
+ok  : un navegador en español, español
+ok  : un mexicano, español
+ok  : un argentino, español
+ok  : "es" a secas, español
+ok  : un inglés de Estados Unidos, inglés
+ok  : un francés, inglés
+ok  : un japonés, japonés
+ok  : ruso y chino se detectan antes del huso horario
+ok  : inglés a secas pero reloj en Lima: español
+ok  : inglés a secas pero reloj en Madrid: español
+ok  : inglés a secas y reloj en Nueva York: inglés
+ok  : un inglés DE México sigue siendo de aquí
+ok  : sin idioma ni zona, inglés
+ok  : con basura, inglés
+ok  : manda el primero de la lista
+ok  : y al revés también
+ok  : están España y los veinte de América
+ok  : sin repetidos
+ok  : todos son códigos de dos letras en mayúscula
+ok  : no se cuela Brasil, que habla portugués
+ok  : ni Estados Unidos
+ok  : las zonas horarias son zonas de verdad
+ok  : sin zonas repetidas
+ok  : todas las zonas de la lista dan español
+ok  : hay dos suelos
+ok  : cada bando tiene el suyo
+ok  : y ante la duda, el del mochi
+ok  : la ruta no lleva idioma: es la misma para todo el mundo
+ok  : y tampoco empieza por barra
+ok  : los dos suelos existen
+ok  : los dos suelos pesan 239 kB juntos

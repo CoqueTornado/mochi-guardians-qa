@@ -1,0 +1,53 @@
+
+> scrapline@0.1.0 test:i18n
+> esbuild tests/i18n.test.mjs --bundle --format=esm --platform=node --outfile=tests/.i18n.bundle.mjs && node tests/.i18n.bundle.mjs
+
+
+  tests\.i18n.bundle.mjs  2.5mb
+
+Done in 50ms
+ok  : las 107 cartas tienen entrada en inglés
+ok  : los 80 monstruos tienen entrada en inglés
+ok  : los 12 jefes tienen entrada en inglés
+ok  : los 36 niveles tienen entrada en inglés
+ok  : los 6 capítulos tienen entrada en inglés
+ok  : las 5 rarezas tienen nombre en inglés
+ok  : no sobran entradas de carta
+ok  : no sobran entradas de monstruo
+ok  : no sobran entradas de jefe
+ok  : ningún texto de carta está vacío
+ok  : ningún texto de bicho está vacío
+ok  : ningún texto de jefe está vacío
+ok  : el lore inglés tiene cuerpo (>25 caracteres)
+ok  : los consejos ingleses tienen cuerpo (>15)
+ok  : las descripciones de bichos tienen cuerpo (>10)
+ok  : los avisos de nivel tienen cuerpo (>15)
+ok  : no queda español suelto en las traducciones
+ok  : el accesor 'role' cambia con el idioma
+ok  : el accesor 'lore' cambia con el idioma
+ok  : el accesor 'tip' cambia con el idioma
+ok  : el accesor 'mob' cambia con el idioma
+ok  : el accesor 'desc' cambia con el idioma
+ok  : el accesor 'title' cambia con el idioma
+ok  : el accesor 'lv' cambia con el idioma
+ok  : el accesor 'warn' cambia con el idioma
+ok  : el accesor 'ch' cambia con el idioma
+ok  : el accesor 'outro' cambia con el idioma
+ok  : el accesor 'cboss' cambia con el idioma
+ok  : el accesor 'rar' cambia con el idioma
+ok  : el accesor 'mode' cambia con el idioma
+ok  : el accesor 'range' cambia con el idioma
+ok  : rangeLabelT en inglés dice Melee
+ok  : modeLabelT en inglés dice Single target
+ok  : los efectos se traducen
+ok  : los rasgos se traducen
+ok  : los hechizos tienen nombre y descripción en inglés
+ok  : los magos tienen título y cotilleo en inglés
+ok  : ningún efecto de carta se queda en español
+ok  : todos los rangos tienen su nombre en inglés
+ok  : los ocho elementos tienen nombre en inglés
+ok  : y ninguno se quedó sin traducir
+ok  : Fuego es Fire, no Fuego
+ok  : el resumen de ventajas se traduce
+ok  : y en inglés no se cuela ni una palabra en español
+ok  : el neutro también está en los dos idiomas

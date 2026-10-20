@@ -1,0 +1,25 @@
+
+> scrapline@0.1.0 release:demo
+> node tools-package-demo.mjs
+
+vite v8.3.0 building client environment for demo...
+transforming...
+✓ 158 modules transformed.
+rendering chunks...
+computing gzip size...
+demo-release/web/index.html                    3.41 kB │ gzip:     1.46 kB
+demo-release/web/assets/index-U6vxtUVT.js  4,036.48 kB │ gzip: 1,384.76 kB
+
+✓ built in 22.62s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1600 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[PLUGIN_TIMINGS] Plugin hooks ran for 21.9s of this 22.6s build (97%).
+The slowest hooks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - vite:terser renderChunk (96%, 21.7s, 1 call)
+Additional hook time came from hooks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+Demo lista: E:\proyectos programación\juego poki Fable 5\scrapline\demo-release; ZIP 24.46 MiB; 113 archivos

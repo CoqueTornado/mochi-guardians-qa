@@ -1,0 +1,34 @@
+[
+  {
+    "name": "mochi-mobile",
+    "acquired": 13,
+    "walking": true,
+    "cardTap": true,
+    "pinch": true,
+    "errors": []
+  },
+  {
+    "name": "mochi-desktop",
+    "acquired": 13,
+    "walking": true,
+    "cardTap": true,
+    "pinch": false,
+    "errors": []
+  },
+  {
+    "name": "hollin-mobile",
+    "acquired": 13,
+    "walking": true,
+    "cardTap": true,
+    "pinch": true,
+    "errors": []
+  },
+  {
+    "name": "hollin-desktop",
+    "acquired": 13,
+    "walking": true,
+    "cardTap": true,
+    "pinch": false,
+    "errors": []
+  }
+]

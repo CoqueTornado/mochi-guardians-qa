@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-19T07:56:27.532Z",
+  "environment": "Windows; Playwright Chromium/Edge; simulated portrait and landscape",
+  "scope": "UI integration; scene setup uses fixtures, interaction uses real mouse/touch",
+  "results": [
+    {
+      "name": "mochi-landscape-battle",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-lair",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-battle",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-lair",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-battle",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-landscape-lair",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-battle",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "hollin-portrait-lair",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-landscape-end",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    },
+    {
+      "name": "mochi-portrait-end",
+      "status": "passed",
+      "checks": [
+        "compact-russian-zoom",
+        "five-vector-flags",
+        "native-language-names",
+        "no-change-on-open-cancel-current",
+        "direct-japanese-selection",
+        "popup-bounds"
+      ],
+      "errors": []
+    }
+  ]
+}

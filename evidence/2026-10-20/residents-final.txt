@@ -1,0 +1,8 @@
+
+> scrapline@0.1.0 test:browser-lair-residents
+> node tests/browser-lair-residents.test.mjs
+
+ok mochi-mobile: colección paseante, rutas, ficha, zoom real con dos dedos y afecto
+ok mochi-desktop: colección paseante, rutas, ficha
+ok hollin-mobile: colección paseante, rutas, ficha, zoom real con dos dedos y afecto
+ok hollin-desktop: colección paseante, rutas, ficha
