@@ -1,9 +1,0 @@
-
-> scrapline@0.1.0 test:locales
-> esbuild tests/locales.test.mjs --bundle --format=esm --platform=node --outfile=tests/.locales.bundle.mjs && node tests/.locales.bundle.mjs
-
-
-  tests\.locales.bundle.mjs  2.5mb
-
-Done in 51ms
-Locale checks passed: 4290 catalogue entries × 3 added languages; variables, artefacts, detection, saves and UI labels
